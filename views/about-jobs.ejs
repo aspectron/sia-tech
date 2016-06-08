@@ -1,0 +1,43 @@
+<% iris.title( _T("Jobs — Sia") ); %>
+<% include partial/header %>
+	<section class="article ">
+		<div class="container">
+			<header class="row">
+				<div class="col-xs-12">
+					<h1><%= _T("Work With Us") %></h1>
+					<h2><%= _T("WE ARE LOOKING FOR TALENT") %></h2>
+				</div>
+			</header>
+			<div class="row">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<h3><%= _T("Working at Nebulous") %></h3>
+					<p><%= _T("Nebulous is the parent company of Sia, and funds the majority of Sia's development. We are looking primarily for full time employees, but we are open to discussing alternate arrangements.") %></p>
+					<p>
+						<%= _T("You can apply by sending an email to") %> 
+						<a href="/cdn-cgi/l/email-protection#167277607f7256787374637a7963657a7774653875797b">
+							<span class="__cf_email__" data-cfemail="264247504f4266484344534a4953554a4744550845494b">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+						</a>
+					</p>
+					<h3><%= _T("Open Positions") %></h3>
+<%
+var positions = [{
+	"title": _T("UI/UX Developer"),
+	"description": _T('Sia has a graphical front end build using <a href="https://github.com/atom/electron">Electron</a>, a desktop app framework based on Chromium.  The code is a combination of the Electron API, Nodejs, JavaScript, HTML, and CSS. We are looking for someone to help us with the construction, maintenance,and testing of our graphical frontend. We are planning on giving the UI a visual and functional upgrade that simplifies and streamlines the user experience. 2+ years of experience with JavaScript and web app development preferred.')
+	},{
+		"title": _T("Business Developer"),
+		"description": _T("Sia is rapidly maturing into a production ready enterprise product. We are looking for someone to help us build out an enterprise sales infrastructure, including identifying potential clients within our sales verticals and then reaching out to those companies to sell the product."),
+	},{
+		"title": _T("Decentralization Engineer"),
+		"description": _T("We are looking for someone familiar with decentralized technologies, and able to design distributed systems that have high tolerances for harsh adversarial environments. Familiarity with typical attack vectors such as DoS attacks and Sybil attacks is required. A strong working knowledge of blockchain technology and the Bitcoin blockchain in particular is strongly desired. Responsibilities will include monitoring the health of the peer network, analyzing attack vectors in the host and renter protocols, and helping to optimize the overall scalability of the network."),
+	}]
+%>
+					<% _.each(positions, function(item){ %>
+					<p><strong><%= item.title %></strong></p>
+					<p><%= item.description %></p>
+					<% }) %>
+				</div>
+			</div>
+		</div>
+	</section>
+<% include partial/discover %>
+<% include partial/footer %>

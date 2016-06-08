@@ -1,0 +1,26 @@
+﻿<% include email-helper %>
+<%
+if(typeof data == "undefined"){
+	var data = {
+		"name": "Sender Name",
+		"email": "sender@gmail.com",
+		"heading": "Message Heading",
+		"message": {"message": "Message text.", "inquirytype": "Testing", "organization": "Testing.."}
+	}
+}
+%>
+<div <% getCss("emailHolder") %> >
+	<div <% getCss("emailContent") %> >
+		<a href="<%= baseUrl %>" <% getCss("emailLogo") %> ></a>
+		<div>
+			<h2 <% getCss("emailH1") %> >Get in Touch message</h2>
+			<div>Organization: <%= data.message.organization %></div>
+			<div>InquiryType: <%= data.message.inquirytype %></div>
+			<div><%= data.message.message %></div>
+		</div>
+		<div <% getCss("emailFooter") %> >
+			<div><%= data.fromName %></div>
+			<div><%= data.fromEmail %></div>
+		</div>
+	</div>
+</div>

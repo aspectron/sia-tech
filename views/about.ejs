@@ -1,0 +1,104 @@
+<% iris.title( _T("About — Sia") ); %>
+<% include partial/header %>
+	<section class="article ">
+		<div class="container">
+			<header class="row">
+				<div class="col-xs-12">
+					<h1><%= _T("About Us") %></h1>
+					<h2><%= _T("OUR MISSION") %></h2>
+				</div>
+			</header>
+			<div class="row">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<%- _T('<p>The idea of Sia was originally conceived at HackMIT 2013. What if you could liberate the unused storage space of the world and unite it into a worldwide free market for data?</p><p>Sia leverages the capacity of blockchain technology to enable distributed networks to reach consensus in a secure and trustless way. Cryptographically secured smart contracts ensure the encryption and transfer of data with no possibility for a third party to interfere in any way.</p><p>Sia is a new approach to cloud storage platforms. Instead of all datacenters being owned and operated by a single company, Sia opens the floodgates and allows anyone to make money by renting out their hard drive. Data integrity is protected using redundancy and cryptography.</p><p>The promise of Sia is a decentralized network of datacenters that, taken together, comprise the world\'s fastest, cheapest, and most secure cloud storage platform. Today, being a major cloud storage player requires having datacenters, building trust within the market, reaching customers, and competing with giants such as Amazon, Google, and Microsoft.</p><p>Breaking into this market is a multi-billion dollar endeavor. The long term goal of Sia is to be the backbone storage layer of the Internet.</p><p>We believe data should be free. We aim to liberate the unused bits of the world and construct the largest storage superserver on the planet.</p>')%>
+					<h3><%= _T('Contact') %></h3>
+					<address>
+						<%- _T('<p>Nebulous Inc.<br>280 Congress St, Floor 12<br>Boston, MA, 02210<br>USA</p>') %>
+						<p>
+							<a class="email" href="/cdn-cgi/l/email-protection#bad2dfd6d6d5fac9d3db94cedfd9d2">
+								<span class="__cf_email__" data-cfemail="6008050c0c0f201309014e14050308">[email&#160;protected]</span>
+							</a>
+						</p>
+						<script data-cfhash="f9e31" type="text/javascript">
+							/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */
+						</script>
+					</address>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="form">
+		<div class="container">
+			<div class="row">
+				<form action="/about" method="post" accept-charset="UTF-8" class="get-in-touch col-xs-12 col-lg-10 col-lg-offset-1">
+					<div class="row">
+						<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+							<h1><%= _T("Get in touch!") %></h1>
+							<h5 class="result-message"></h5>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+							<input type="hidden" name="CRAFT_CSRF_TOKEN" value="~iJ8vL1ocHcfOw11kCyrYWUN2vVYBlixUaL3lhPH">
+							<div class="input-group">
+								<input aria-label="Action" type="hidden" name="action" value="contactForm/sendMessage" />
+								<input aria-label="Redirect" type="hidden" name="redirect" value="about" />
+								<input aria-label="Name" type="text" class="form-control" placeholder="<%= _T("Name") %>" name="fromName" />
+								<input aria-label="Email" type="text" class="form-control" placeholder="<%= _T("Email") %>" name="fromEmail" />
+							</div>
+							<div class="input-group">
+								<input aria-label="Organization" type="text" class="form-control" placeholder="<%= _T("Organization") %>" name="message[organization]" />
+								<select aria-label="Type of Inquiry" class="form-control" name="message[inquirytype]">
+									<option value=""><%= _T("Type of inquiry") %></option>
+									<option value="General"><%= _T("General") %></option>
+									<option value="Press"><%= _T("Press") %></option>
+									<option value="Partnerships"><%= _T("Partnerships") %></option>
+									<option value="Investment Interest"><%= _T("Investment Interest") %></option>
+								</select>
+							</div>
+							<div class="input-group">
+								<textarea aria-label="Message" class="form-control" placeholder="<%= _T("Your message") %>" name="message[message]"></textarea>
+							</div>
+							<div class="input-group">
+								<button class="btn" role="button" type="submit"><%= _T("Send") %></button>
+								<input aria-label="Comment"type="hidden"name="comment" />
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+<% include partial/discover %>
+<style type="text/css">
+	.result-message{text-align:center;color:#00CBA0;min-height:20px;}
+	.result-message.error{color:#d9534f;}
+	.result-message .loading-img{animation:rotate 1s infinite; width:20px;}
+    @-webkit-keyframes rotate {100% {-webkit-transform: rotate(360deg);}}
+	@keyframes rotate {100% {transform: rotate(360deg);}}
+</style>
+<script type="text/javascript">
+	$('form.get-in-touch').on("submit", function(e){
+		e.preventDefault();
+		var $msgHolder = $('.result-message');
+		$msgHolder.removeClass("error").html("<img class='loading-img' src='/img/svg/loading.svg'>");
+		$.ajax({
+			url: "/about",
+			method: "POST",
+			data: $(this).serialize(),
+			success: function(result){
+				var msg = result.error || '<%= _T("Server Error: Please try later.") %>';
+				if (result.success){
+					msg = '<%= _T("Success: Thanks for contacting.") %>';
+				}else{
+					$msgHolder.addClass("error");
+				}
+				$msgHolder.html(msg);
+			},
+			failure: function(){
+				$msgHolder.addClass("error").html('<%= _T("Server Error: Please try later.") %>');
+			}
+		})
+	});
+</script>
+<% include partial/footer %>

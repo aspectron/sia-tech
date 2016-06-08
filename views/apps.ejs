@@ -1,0 +1,75 @@
+<% iris.title( _T("Apps — Sia") ); %>
+<% include partial/header %>
+	<section class="columns ">
+		<div class="container">
+			<header class="row">
+				<div class="col-xs-12 col-lg-12">
+					<h1><%= _T("Apps") %></h1>
+					<h2><%= _T("DOWNLOAD THE LATEST RELEASES") %></h2>
+				</div>
+			</header>
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-1">
+					<h4><%= _T("Sia") %></h4>
+					<ul>
+						<li><%= _T("Store your data") %></li>
+						<li><%= _T("The official wallet for Siacoin") %></li>
+						<li><%= _T("Rent your storage space and receive Siacoin") %></li>
+						<li><%= _T("Verify and relay transactions") %></li>
+						<li><%= _T("Secure the network") %></li>
+					</ul>
+					<p><a class="btn default" href="https://github.com/NebulousLabs/Sia/releases/tag/v0.6.0-beta" target="_blank"><%= _T("Download v0.6.0-beta") %></a></p>
+				</div>
+				<div class="col-lg-4 col-lg-offset-2">
+					<h4><%= _T("Sia Miner") %></h4>
+					<ul>
+						<li><%= _T("Verify and relay transactions") %></li>
+						<li><%= _T("Secure the blockchain and receive Siacoin") %></li>
+					</ul>
+					<p><a class="btn default" href="https://github.com/NebulousLabs/Sia-GPU-Miner/releases/tag/v1.0.5" target="_blank"><%= _T("Download v1.0.5") %></a></p>
+					<h4><%= _T("Alternate miner") %></h4>
+					<p><%= _T("A GPU miner for Sia in Go.") %></p>
+					<p>
+						<a href="https://github.com/robvanmieghem/gominer" target="_blank">
+						<%= _T("github.com/robvanmieghem/gominer") %>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="columns ">
+		<div class="container">
+			<header class="row">
+				<div class="col-xs-12 col-lg-12">
+					<h1><%= _T("Built on Sia") %></h1>
+				</div>
+			</header>
+			<div class="row">
+			<%
+			var builtOnSia = [{
+				"title": _T("Sunfish"),
+				"desciption": _T("Share and search for files with Sunfish."),
+				"link": "http://staging.siafiles.com/"
+			},{
+				"title": _T("Block explorer"),
+				"desciption": _T("Sia Blockchain Explorer."),
+				"link": "http://explore.siacoin.com/"
+			},{
+				"title": _T("Crypti"),
+				"desciption": _T("DAPP platform using Sia as its storage layer."),
+				"link": "https://crypti.me/download"
+			}]
+
+			_.each(builtOnSia, function(p, i){ %>
+				<div class="col-lg-2 col-lg-offset-<%= i%3 == 0 ? "2": "1" %>">
+					<h4><%= p.title %></h4>
+					<p><%= p.desciption %></p>
+					<p><a href="<%= p.link %>" target="_blank"><%= p.link.split("/")[2] %></a></p>
+				</div>
+			<% })%>
+			</div>
+		</div>
+	</section>
+<% include partial/discover %>
+<% include partial/footer %>

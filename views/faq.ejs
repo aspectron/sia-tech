@@ -1,0 +1,202 @@
+<%
+iris.title( _T("Frequently Asked Questions — Sia") );
+var faqs = [
+	{
+		"title": _T("Sia"),
+		"items": [{
+				"title": _T("How are files securely stored on the Sia network?"),
+				"text": _T("Sia uses a combination of erasure coding, encryption, and blockchains to ensure that files are secure on the network. No host can view the files that it is hosting, and files can withstand large network outages without corrupting.")
+			},{
+				"title": _T("What happens if a file host goes offline?"),
+				"text": _T("Sia uses Reed Solomon erasure coding, which means that a large percentage of file hosts can go offline without causing file corruption.")
+			},{
+				"title": _T("How stable is Sia?"),
+				"text": _T("The Sia consensus protocol has been thoroughly reviewed, and is unlikely to change dramatically in the future. No major vulnerabilities have been found in the Sia consensus protocol since the initial launch on June 7th.The client software is firmly in beta. Most serious bugs have been eliminated, but there are still rough or frustrating elements to the user experience. There may also be lingering bugs that would put coins or files at risk. Use with caution. There is no warranty on the software. Restarting the software is usually a good way to resolve unexpected issues.")
+			},{
+				"title": _T("What is a file contract?"),
+				"text": _T(" A file contract enables a host and a renter to make an agreement about a file; the host agrees to store a file for some duration of time, and then gets paid some money for doing so. The renter pays all of the coins up front, and the blockchain acts as escrow. If the host keeps the file and submits a proof of storage at the end, the host will get the payment. Otherwise, (depending on the terms of the contract), the payment is returned to the uploader. All payments need to be made in Sia’s local currency, the siacoin.")
+			},{
+				"title": _T("Can I contribute, or build on Sia?"),
+				"text": _T("Yes! We would love that. All of Sia's code is 100% open sourced and can be found on our github.Special thanks to bitspill, fornax, autumnalscooter, and pmknutsen for helping out, as well as other devs who have made issues or submitted pull requests.")
+			},{
+				"title": _T("What's the difference between Sia and Nebulous Labs?"),
+				"text": _T("Nebulous Labs is the company, Sia is the product. ")
+			}]
+	},{
+		"title": _T("Siacoins"),
+		"items": [{
+				"title": _T("What is the difference between Siacoin and Bitcoin?"),
+				"text": _T("Sia uses a cryptocurrency, Siacoin, to enable decentralized payments. Siacoin can be thought of as an extension to Bitcoin that adds support for file contracts. Like Bitcoin, Siacoin uses a blockchain, and is powered by \"proof-of-work\" mining. However, Siacoin and Bitcoin are not in direct competition. Bitcoin is a general-purpose currency, while Siacoin exists only to enable the Sia network.")
+			},{
+				"title": _T("Why does Sia need its own currency? Couldn't it use a payment processor like PayPal?"),
+				"text": _T("This would make it much harder for clients to pay hosts directly. In addition, Sia creates a large volume of very small transactions (i.e. micropayments; think less than 1¢), which traditional payment processors are not designed to handle. Finally, using a blockchain also makes it possible to enforce contracts in a cryptographically secure way.")
+			},{
+				"title": _T("How can I get siacoins?"),
+				"text": _T("You will need bitcoins to acquire siacoins. The most common place to get siacoins is Poloniex. There is also a trading thread on bitcoin talk and a trading channel in our slack.")
+			},{
+				"title": _T("How many siacoins will exist?"),
+				"text": _T("The number of siacoins created each block is (300,000 - height). The genesis block has a height of 0. After height 270,000, all blocks will have a reward of 30,000 siacoins. The current number of siacoins can be found at explore.siacoin.com")
+			},{
+				"title": _T("How much does it cost to store data?"),
+				"text": _T("The price is determined by a free market of users and providers. As of January 2016, storage is about $2.25/TB/month with 6x redundancy.")
+			},{
+				"title": _T("What is the difference between Siacoin and Siafund?"),
+				"text": _T("The two are different assets. The Siafund grants you access to a portion of the hosts income. If you buy a siafund for $200, it means that over the lifetime of the Siafund you expect to earn $200 back (plus interest). If Sia achieves its goal of cloud storage domination, each Siafund will earn probably somewhere between $10,000 and $250,000 for their owners each. The discount represents risk that Sia will never grow that large.The Siacoin is used to buy storage on the Sia network, and it's base value is derived from that.")
+			}]
+	},{
+		"title": _T("Wallet Usage"),
+		"items": [{
+				"title": _T("How does wallet encryption work?"),
+				"text": _T("The first time you run Sia, you will need to initialize a wallet. You can click 'Create Wallet' in the app. You will be given a secure 29 word passphrase that will be needed to unlock the wallet in the future. If you ever lose your wallet file, you can use the 29 word phrase to recover siacoins that had been in the wallet.")
+			},{
+				"title": _T("What is wallet locking?"),
+				"text": _T("Locking is part of the encryption. When you first open a wallet, it will be locked. Coins cannot be spent while the wallet is locked. The miner, file manager, and host will also be disabled while the wallet is locked.")
+			},{
+				"title": _T("Can I choose my own password?"),
+				"text": _T("Currently, you cannot choose your own password. People typically overestimate their ability to create strong passwords, and many people have lost coins due to theft as the result of having a weak password. For this reason, there is no support for user-generated passwords in the default Sia software.")
+			},{
+				"title": _T("Can a hacker steal my coins?"),
+				"text": _T("The private keys only exist in memory while the wallet is unlocked. All private data is encrypted using the wallet password before being saved to disk.")
+			},{
+				"title": _T("Why is there a list of addresses?"),
+				"text": _T("Most wallets display different addresses to the user one at a time. We simply show them all to you at once. It's good practice to use a new address for every transaction.")
+			},{
+				"title": _T("Why hasn't my balance updated after a transaction?"),
+				"text": _T("Your transaction will be included in the next block. The time it takes to mine each block is targeted at 10 minutes. Additionally, if your wallet is new, it may still be behind in downloading block headers. ")
+			},{
+				"title": _T("Are wallet users anonymous?"),
+				"text": _T("Yes, for the most part. Technically it's permissionless - Sia does not require any personal information for use of any of its services. ")
+			},{
+				"title": _T("How often should I back up my wallet?"),
+				"text": _T("There's no need to, as long as you have stored your seed/ passphrase in a secure location. Don't lose that!Your ")
+			}]
+	},{
+		"title": _T("Host Usage"),
+		"items": [{
+				"title": _T("How do I become a host?"),
+				"text": _T("The first step is forwarding your ports. Once your ports are forwarded, you can announce the host and begin collecting file contracts. The announcement can take a few hours to propagate the network.")
+			},{
+				"title": _T("How do I forward my ports?"),
+				"text": _T("The default ports that need to be forwarded are :9981 and :9982. Recent versions of Sia include upnp, which will automatically forward ports for most people but does not work for everyone. portforward.com contains more information.")
+			},{
+				"title": _T("Sia says my ports are not forwarded, but they are."),
+				"text": _T("Sia sometimes falsely believes that your ports are not forwarded. To get around this, you can use 'siac' to announce a specific url. This announcement does not verify that your ports are forwarded, allowing you to get around the error.")
+			},{
+				"title": _T("I am not getting any contracts."),
+				"text": _T("If you are not getting any file contracts, it is probably because your price is too high, your wallet is locked, your ports are not forwarded, or you never properly announced the host.")
+			},{
+				"title": _T("What price should I use?"),
+				"text": _T("There are some crude tools for estimating competitive price of storage on the network. Anything over 100 siacoins per GB per month is unlikely to get storage contracts.")
+			},{
+				"title": _T("Will hosts be held responsible for uploaded content?"),
+				"text": _T("Because the files are encrypted, hosts cannot know what files they are hosting and thus cannot be held accountable for hosting those files. However, if the host receives a DMCA takedown request then it is the host's responsibility to acquiesce. ")
+			}]
+	},{
+		"title": _T("Miner Usage"),
+		"items": [{
+				"title": _T("Is there a mining pool?"),
+				"text": _T("No, but there are at least 2 mining pools in development. An official mining pool is in development, and at least one third party is developing a mining pool for Sia.There is no official ETA for any mining pool.")
+			},{
+				"title": _T("What card should I buy?"),
+				"text": _T("AMD cards tend to perform a lot better than Nvidia cards. The Fury X has been reported as a cost-effective card.")
+			},{
+				"title": _T("How long will it take to solo mine blocks?"),
+				"text": _T("Depending on the card, each video card can expect to mine between 2 and 10 blocks per month, with very high variance.")
+			},{
+				"title": _T("I mined a block but my balance is still 0"),
+				"text": _T("Similar to Bitcoin, coins that you have mined will not be spendable for 144 blocks. Typically, this is 24 hours though hashrate fluctuations can cause confirmations to take longer at times.")
+			},{
+				"title": _T("What hashing algorithm does Sia use?"),
+				"text": _T("Sia uses BLAKE2b, and an implementation of a GPU miner is available for download on our Github.")
+			}]
+	},{
+		"title": _T("Files"),
+		"items": [{
+				"title": _T("How do I upload a file?"),
+				"text": _T("In the GUI, click on the folder icon on the top right corner of your wallet.")
+			},{
+				"title": _T("I uploaded some files but they aren't showing up"),
+				"text": _T("You can try running 'siac' in the command line. Siac is a command line utility that you can download from the Sia repo. Tutorials on how to use it can be found here as well. https://github.com/NebulousLabs/Sia/releases/tag/v0.4.8-beta")
+			},{
+				"title": _T("Can I remove a file after uploading to Sia?"),
+				"text": _T("Coming soon!")
+			},{
+				"title": _T("How do I download a file?"),
+				"text": _T("Click on the file and a download icon will pop up in the top right corner.")
+			},{
+				"title": _T("Can I see how many times a file has been downloaded?"),
+				"text": _T("No, as downloads happen outside of the blockchain. Some hosts may report the volume of activity that they get on a file, but the hosts can easily lie about such metrics. Other platforms such as the Sunfish sharing platform may have methods for tracking metrics such as downloads.")
+			},{
+				"title": _T("Can others see my files on Sia?"),
+				"text": _T("No. All files uploaded by siad are first erasure coded and then encrypted. Only someone with the file metadata will be able to view the original file. As an additional protection, information like the exact filesize is also hidden from someone without the metadata.")
+			},{
+				"title": _T("Can I share files with others on Sia?"),
+				"text": _T("Yes. Files can be shared publically and privately. All files uploaded to the Sia network are erasure coded and then encrypted. Someone will only be able to decrypt and fetch the files if they have metadata about the files. This metadata is stored in something called a ‘.sia’ or a ‘siafile’. By sharing the siafile associated with a file that’s been uploaded to Sia, you give someone the ability to download that file. To share files privately, you can give the siafiles to people you trust. They will be able to download the file, and as long as they don’t share it, nobody else will. You can share files publicly by putting the associated siafiles in a public place. (One such place is https://siafiles.com)")
+			}]
+	}
+]
+%>
+<% include partial/header %>
+		<section class="faqs ">
+			<div class="container">
+				<header class="row">
+					<div class="col-xs-12 col-lg-12">
+						<h1><%= _T("Frequently Asked Questions") %></h1>
+						<h2><%= _T("THINGS YOU WANT TO KNOW") %></h2>
+					</div>
+				</header>
+				<div class="collapse-expand">
+					<% _.each(faqs, function(group, i){ %>
+					<div class="row">
+						<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+							<h3><%= group.title %></h3>
+							<div class="panel-group" id="category-<%= i %>" role="tablist" aria-multiselectable="true">
+								<% _.each(group.items, function(item, j){
+									id = i+"-"+j;
+								%>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="faq-heading-<%= id %>">
+										<div class="panel-title" role="button" data-toggle="collapse" data-parent="#category-<%= i %>" href="#faq-<%= id %>" aria-expanded="true" aria-controls="faq-<%= id %>">
+												<%= item.title %>
+										</div>
+									</div>
+									<div id="faq-<%= id %>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-<%= id %>">
+										<div class="panel-body">
+											<p><%- item.text %></p>
+										</div>
+									</div>
+								</div>
+								<% }) %>
+							</div>
+						</div>
+					</div>
+					<% }) %>
+				</div>
+			</div>
+		</section>
+		<!--script type="text/javascript">
+			var items = [];
+			var tStart = "[T-START]";
+			var tEnd = "[T-END]";
+			$(".collapse-expand .row").each(function (argument) {
+				var s = {}
+				s.title = tStart+$(this).find(".col-xs-12>h3").html().replace(/\t/g, "").replace(/\n/g, "")+tEnd;
+				s.items = [];
+				$(this).find(".panel").each(function(){
+					var a = {};
+					a.title = tStart+$(this).find(".panel-title").html().replace(/\t/g, "").replace(/\n/g, "")+tEnd;
+					a.text = tStart+$(this).find(".panel-body p").html().replace(/\t/g, "").replace(/\n/g, "")+tEnd;
+					s.items.push(a);
+				});
+				items.push(s);
+			})
+			console.log(JSON.stringify(items, null, "\t")
+				.replace(/\},\n[\s]*\{/g, "},{")
+				.replace(/\[[\s]*\{/g, "[{")
+				.replace(/\}[\s]*\]/g, "}]")
+				.replace(/"\[T-START\]/g, '_T("')
+				.replace(/\[T-END\]"/g, '")')
+			);
+		</script-->
+<% include partial/discover %>
+<% include partial/footer %>

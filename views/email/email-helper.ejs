@@ -1,0 +1,48 @@
+﻿<%
+	this.getCss = function getCss(key){
+		var c = getCssString(cssStyles[key]);
+		c = c.replace(/"/g, "'").replace(/\{\{baseUrl\}\}/g, baseUrl);
+		%>style="<%- c %>"<%
+	}
+
+	this.getCssString = function getCss(v){
+		if (!_.isArray(v))
+			return v;
+
+		var str = [];
+		_.each(v, function(a){
+			str.push(getCssString(a));
+		})
+		return str.join("");
+	}
+
+	this.cssStyles = {
+		"emailHolder": 'background-color:#f6f6f6;padding: 50px 20px;',
+		"emailContent": [
+			'font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;',
+			'font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;',
+			'-webkit-font-smoothing: antialiased;-webkit-text-size-adjust: none;',
+			'margin:0px auto;background-color: #FFFFFF;padding: 20px;'
+		],
+		"emailH": [
+			'color: #111111;',
+			'font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;',
+			'font-weight: 200;',
+			'line-height: 1.2em;',
+			'margin: 40px 0 10px;'
+		],
+		"emailA": 'color: #348eda;cursor:pointer;',
+		"emailFooter": "margin-top: 50px;"
+	}
+
+	cssStyles.emailH1 = [cssStyles.emailH, "font-size: 36px;"];
+	cssStyles.emailH2 = [cssStyles.emailH, "font-size: 28px;"];
+	cssStyles.emailH3 = [cssStyles.emailH, "font-size: 22px;"];
+	cssStyles.emailLogo = [
+		cssStyles.emailA, [
+			'height:80px;display:block;',
+			'background:url("{{baseUrl}}/img/svg/sia-green-logo.svg") no-repeat center;',
+			'background-size:auto 80px;'
+		]
+	];
+%>

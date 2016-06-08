@@ -1,0 +1,167 @@
+<% iris.title( _T("Sia") ); %>
+<% include partial/header %>
+		<section class="jumbotron">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-12 col-sm-12 text-center">
+						<h2><%= _T("Enterprise-Grade") %></h2>
+						<h1><%= _T("Collaborative Cloud") %></h1>
+						<h3><%= _T("for Data Storage") %></h3>
+						<p><a class="btn btn-lg" href="https://github.com/NebulousLabs/Sia/releases/tag/v0.6.0-beta" role="button" target="_blank"><%= _T("Download now") %></a></p>
+						<p><a href="/get-started"><%= _T("Need help to get started?") %></a></p>
+					</div>
+					<div class="col-lg-4 droplet"></div>
+				</div>
+			</div>
+		</section>
+		<section class="columns traditional">
+			<div class="container">
+				<header class="row">
+					<div class="col-xs-12 col-lg-12">
+						<h1><%= _T("Sia blows traditional storage out of the cloud") %></h1>
+						<h2><%= _T("AND BACK INTO YOUR HANDS") %></h2>
+					</div>
+				</header>
+				<div class="row">
+					<div class="card col-lg-4 col-md-12">
+						<h5 class="illustration col-md-4"><img src="//sia.tech/assets/economy-icon.svg"></h5>
+						<header class="col-md-4">
+							<h4><%= _T("Economy") %></h4>
+							<p><%= _T("Sia is a shared economy. Acquire, use, and trade SiaCoin according to your role and requirements. Participate as a user, farmer, miner, and node operator.") %></p>
+						</header>
+					</div>
+					<div class="card col-lg-4 col-md-12">
+						<h5 class="illustration col-md-4"><img src="//sia.tech/assets/distributed-icon.svg"></h5>
+						<header class="col-md-4">
+							<h4><%= _T("Distributed") %></h4>
+							<p><%= _T("Decentralization means your data is stored across multiple nodes and tracked by automated smart contracts. There is no central point of failure.") %></p>
+						</header>
+					</div>
+					<div class="card col-lg-4 col-md-12">
+						<h5 class="illustration col-md-4"><img src="//sia.tech/assets/build-icon.svg"></h5>
+						<header class="col-md-4">
+							<h4><%= _T("Build") %></h4>
+							<p><%= _T("Build and connect your own apps to Sia to leverage its storage capacity and features. What you pay and what you get are adjusted in real time.") %></p>
+						</header>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="columns storage">
+			<div class="container">
+				<header class="row">
+					<div class="col-xs-12 col-lg-12">
+						<h1><%= _T("Storage for business like never before") %></h1>
+						<h2><%= _T("DISCOVER THE NEW STANDARD") %></h2>
+					</div>
+				</header>
+				<div class="row">
+					<div class="col-lg-7">
+						<aside class="card col-md-12">
+							<section class="row">
+								<h5 class="col-sm-3 col-xs-1">
+									<i class="circle white"><img src="//sia.tech/assets/Customisable.svg"></i>
+								</h5>
+								<header class="col-md-8 col-sm-8 col-sm-push-0 col-xs-7 col-xs-push-3">
+									<h4><%= _T("Customisable") %></h4>
+									<p><%= _T("You've got options. Tailor your storage plan according to your budget and your requirement for bandwidth, storage size, and redundancy.") %></p>
+								</header>
+							</section>
+						</aside>
+						<aside class="card col-md-12">
+							<section class="row">
+								<h5 class="col-sm-3 col-xs-1">
+									<i class="circle white"><img src="//sia.tech/assets/Cost-effective.svg"></i>
+								</h5>
+								<header class="col-md-8 col-sm-8 col-sm-push-0 col-xs-7 col-xs-push-3">
+									<h4><%= _T("Collaborations") %></h4>
+									<p>
+										<%= _T("Sia is an automated peer-to-peer market. Pay for data storage, nothing more.") %>
+										<br>
+										<a href="http://sia.tech/about/collaborations"><%= _T("Learn more") %></a>
+									</p>
+								</header>
+							</section>
+						</aside>
+						<aside class="card col-md-12">
+							<section class="row">
+								<h5 class="col-sm-3 col-xs-1">
+									<i class="circle white"><img src="//sia.tech/assets/Secure.svg"></i>
+								</h5>
+								<header class="col-md-8 col-sm-8 col-sm-push-0 col-xs-7 col-xs-push-3">
+									<h4><%= _T("Secure") %></h4>
+									<p><%= _T("Your data is yours. Files are automatically and securely encrypted with industrial-grade algorithms. Sia uses a blockchain to track and ensure their full integrity.") %></p>
+								</header>
+							</section>
+						</aside>
+					</div>
+					<div class="col-lg-5 col-md-12"><img src="//sia.tech/assets/Graph.svg"></div>
+				</div>
+			</div>
+		</section>
+		<section class="columns network">
+			<div class="container">
+				<header class="row">
+					<div class="col-xs-12 col-lg-12"><h1><%= _T("Network Pulse") %></h1></div>
+				</header>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<header class="circle gray">
+							<aside class="circle green lg">
+								<h2 class="reverse" id="filecontractcount">100,000<br></h2>
+							</aside>
+						</header>
+						<h4><%= _T("Total File Contracts") %></h4>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<header class="circle gray">
+							<aside class="circle green lg">
+								<h2 class="reverse" id="totalcontractsize">16.00</h2>
+								<i class="label"><%= _T("TB") %></i>
+							</aside>
+						</header>
+						<h4><%= _T("Total Contract Size") %></h4>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<header class="circle gray">
+							<aside class="circle green lg">
+								<h2 class="reverse" id="totalcoins">10.00</h2>
+								<i class="label"><%= _T("Billion") %></i>
+							</aside>
+						</header>
+						<h4><%= _T("Total Siacoins") %></h4>
+					</div>
+					<div class="col-lg-2 col-lg-offset-10 text-right">
+						<p>
+							<br>
+							<a href="https://explore.sia.tech" class="more" target="_blank"><%= _T("more stats") %></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="form signup">
+			<div class="container">
+				<div class="row">
+					<form action="http://siacoin.us11.list-manage.com/subscribe/post"method="post" accept-charset="UTF-8" class="col-xs-12 col-lg-10 col-lg-offset-1">
+						<div class="row">
+							<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+								<h1><%= _T("Sign up for Sia announcements") %></h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+								<input type="hidden" name="CRAFT_CSRF_TOKEN" value="~iJ8vL1ocHcfOw11kCyrYWUN2vVYBlixUaL3lhPH">
+								<div class="input-group">
+									<input aria-label="U" type="hidden" name="u" value="5df238d9e852f9801b5f2c92e" type="hidden" />
+									<input aria-label="ID" type="hidden" name="id" value="49533cf53d" type="hidden" />
+									<input aria-label="Email" type="text" class="form-control" name="MERGE0" type="email" placeholder="<%= _T("Email") %>" />
+									<button class="btn" role="button" type="submit"><%= _T("Sign up") %></button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+<% include partial/footer %>

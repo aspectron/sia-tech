@@ -1,0 +1,30 @@
+{
+  "name": "sia-tech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node sia-tech.js"
+  },
+  "main": "sia-tech.js",
+  "dependencies": {
+    "cloudflare": "*",
+    "compression": "^1.5.2",
+    "express": "*",
+    "ejs" : "*",
+    "iris-app": "*",
+    "iris-i18n": "*",
+    "iris-underscore": "*",
+    "iris-utils": "*",
+    "iris-express-helper": "*",
+    "mongodb": "*",
+    "mongoose": "^4.4.6",
+    "morgan": "*",
+    "request": "*",
+    "underscore": "*",
+    "node-uuid": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}

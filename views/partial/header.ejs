@@ -1,0 +1,157 @@
+<%
+	var url = "http://sia.tech"+req.url;
+	iris.options({"jsAtHead": true});
+	iris.defineMeta({
+		"viewport": "minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0001, user-scalable=no",
+		"title": _T("Sia"),
+		"description": _T("Enterprise-Grade Collaborative Cloud for Data Storage"),
+		"keywords": "",
+		"og:type": "website",
+		"og:image": "http://sia.tech/img/svg/sia-green-logo.svg",
+		"og:url": url,
+		"og:description": _T("Enterprise-Grade Collaborative Cloud for Data Storage"),
+		"og:title": iris._meta.title || _T("Sia"),
+		"og:site_name": _T("Sia"),
+		"og:locale": _T.locale,
+		"canonical": url,
+		"shortlink": url,
+		"charset": "utf-8",
+		"X-UA-Compatible": "IE=edge,chrome=1"
+	});
+	iris.script("/scripts/behaviour.min.js", 100);
+	iris.css("/css/fonts.css", 100);
+	iris.css("/css/style.css", 100);
+
+
+	var languagesMenuItem = [],suffix = req.url.charAt(0) == '/' ? '' : '/', base;
+	_.each(_T.languages, function(l, code){
+		if(_T.locale == code)
+			return;
+		base = code == _T.source ? '' : '/'+code+suffix;
+		languagesMenuItem.push({
+			"href": base+req.url,
+			"text": l.name
+		})
+	});
+
+	var menuPrefix = (_T.locale == _T.source) ? "" : "/" + _T.locale;
+
+	iris.topMenus = [
+		{
+			"title": _T.availableLanguages[_T.locale].name,
+			"id": "locale",
+			"items": languagesMenuItem,
+			"liCls": "language-menu",
+			"icon": "language"
+		},
+		"-",
+		{"href": menuPrefix + "/get-started", "text": _T("Get Started")},
+		{"href": menuPrefix + "/apps", "text": _T("Apps")},
+		{"href": menuPrefix + "/about", "text": _T("About")},
+		{
+			"title": _T("Community"),
+			"id": "community",
+			"items":[
+				{"href": menuPrefix + "/about-collaborations", "text": _T("Collaborations")},
+				{"href": "https://www.reddit.com/r/siacoin", "text": _T("Subreddit"), "target": "_blank"},
+				{"href": "https://forum.sia.tech", "text": _T("Forum"), "target": "_blank"},
+				{"href": "http://slackin.sia.tech/", "text": _T("Slack"), "target": "_blank"},
+				{"href": "http://irc.lc/freenode/siatalk", "text": _T("#siatalk on irc.freenode.net"), "target": "_blank"}
+			]
+		},
+		{"href": menuPrefix + "/get-siacoin", "text": _T("GET SIACOIN"), "cls": "btn btn-reverse"}
+	]
+					
+	iris.footerMenus = [{
+		"title": _T("What is Sia?"),
+		"items":[
+			{"href": menuPrefix + "/get-started", "text": _T("Get Started")},
+			{"href": menuPrefix + "/about", "text": _T("About")},
+			{"href": menuPrefix + "/faq", "text": _T("FAQ")},
+			{"href": menuPrefix + "/apps", "text": _T("Apps")}
+		]
+	},{
+		"title": _T("More about Sia"),
+		"items":[
+			{"href": menuPrefix + "/get-siacoin", "text": _T("Get Siacoin")},
+			{"href": menuPrefix + "/about/roadmap", "text": _T("Roadmap")},
+			{"href": "https://github.com/NebulousLabs/Sia-UI", "text": _T("Github - UI"), "target": "_blank"},
+			{"href": "https://github.com/NebulousLabs/Sia", "text": _T("Github"), "target": "_blank"},
+			{"href": "http://github.com/NebulousLabs/Sia/tree/master/doc", "text": _T("Docs"), "target": "_blank"},
+			{"href": menuPrefix + "/about-collaborations", "text": _T("Collaborations")},
+			{"href": menuPrefix + "/about-jobs", "text": _T("Open Positions")}
+		]
+	},{
+		"title": _T("A Community"),
+		"items":[
+			{"href": menuPrefix + "/about-collaborations", "text": _T("Collaborations")},
+			{"href": "https://www.reddit.com/r/siacoin", "text": _T("Subreddit"), "target": "_blank"},
+			{"href": "https://forum.sia.tech", "text": _T("Forum"), "target": "_blank"},
+			{"href": "http://slackin.sia.tech/", "text": _T("Slack"), "target": "_blank"},
+			{"href": "http://irc.lc/freenode/siatalk", "text": _T("#siatalk on irc.freenode.net"), "target": "_blank"}
+		]
+	}]
+
+%><!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="home" href="http://sia.tech/" />
+	<%- iris.print("meta,css,inline-css,script,inline-script", "header") %>
+</head>
+<body>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-58715089-4', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<header>
+		<section id="site-nav">
+			<div class="container">
+				<nav class="navbar">
+					<a class="navbar-brand" href="<%= menuPrefix || "/" %>"><img src="/img/svg/sia-green-logo.svg" alt="Sia" /></a>
+					<button class="navbar-toggler" type="button" href="/" data-toggle="collapse" data-target="#sia-nav" >
+						<img class="menu" src="/img/svg/menu.svg" alt="Sia" />
+						<img class="menu-close" src="/img/svg/close.svg" alt="Sia" />
+					</button>
+					<div class="collapse navbar-toggleable-md" id="sia-nav">
+						<ul class="nav navbar-nav h-box">
+							<% _.each(iris.topMenus, function(m){
+								if (m == "-"){ %>
+									<li class="nav-item flex-1"></li>
+								<% }else if (m.items){
+									var id = m.id || m.title.toLowerCase().replace(/ /g, "-");
+									%>
+									<li class="nav-item dropdown <%= m.liCls || "" %><%= m.icon ? " icon" : "" %>">
+										<a id="nav-item-<%= id %>" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+											<%- m.icon? '<span class="icon '+m.icon+'"></span>' : '' %>
+											<%= m.title %><span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu" aria-labelledby="#nav-item-<%= id %>">
+											<% _.each(m.items, function(c){ %>
+											<li class="dropdown-item <%= c.liCls || "" %><%= c.icon ? " icon" : "" %>">
+												<a href="<%= c.href %>" class="nav-link <%= c.cls %>" <%= c.target ? 'target="'+c.target+'"' :"" %>>
+													<%- c.icon? '<span class="icon '+c.icon+'"></span>' : '' %><%= c.text %>
+												</a>
+											</li>
+											<% }) %>
+										</ul>
+									</li>
+								<% }else{ %>
+									<li class="nav-item <%= m.liCls || "" %><%= m.icon ? " icon" : "" %>">
+										<a href="<%= m.href %>" class="nav-link <%= m.cls || "" %>" <%= m.target ? 'target="'+m.target+'"' :"" %>>
+											<%- m.icon? '<span class="icon '+m.icon+'"></span>' : '' %><%= m.text %>
+										</a>
+									</li>
+							<%	}
+							}) %>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</section>		
+	</header>
+	<main id="site-content" role="main">
+<!-- ######################### CONTENT START ###################### -->

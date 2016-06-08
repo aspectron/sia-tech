@@ -1,0 +1,71 @@
+
+<!-- ######################### CONTENT END ######################## -->
+</main>
+	<footer>
+		<section id="main-footer">
+			<div class="container">
+				<div class="row">
+					<% _.each(iris.footerMenus, function(m){ %>
+					<div  class="col-lg-2 col-sm-4">
+						<ul>
+							<li><span class="list-header"><%= m.title %></span></li>
+							<% _.each(m.items, function(link){ %>
+								<li><a href="<%= link.href %>" <%= link.target ? 'target="'+link.target+'"' :"" %>><%= link.text %></a></li>
+							<% }) %>
+							</li>
+						</ul>
+					</div>
+					<% }) %>
+					<div class="col-lg-3 col-lg-offset-3 col-sm-7 logos" class="col-lg-2 col-sm-4">
+						<ul>
+							<li><img src="/assets/globals/logo.svg" /><span class="list-header"><%= _T("is backed by") %></span></li>
+							<li><a href="http://www.nebulouslabs.com" target="_blank"><img src="/resources/img/svg/nebulous-logo.svg" /></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-12 questions" class="col-lg-2 col-sm-4">
+						<ul>
+							<li><span class="list-header"><%= _T("Questions about Sia? Get in touch!") %></span></li>
+							<li><a href="/cdn-cgi/l/email-protection#81e5e0f7e8e5c1efe4e3f4edeef4f2ede0e3f2afe2eeec" target="_blank" class="btn btn-reverse"style="margin-top:9px;"><%= _T("Contact") %></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="social-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-9 col-md-9">
+						<ul>
+							<li>
+								<a href="https://github.com/NebulousLabs/Sia" target="_blank">
+									<span class="icon"><img src="/img/svg/github-icon.svg"></span>
+									<span class="text"><%= _T("Github") %></span>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/nebulouslabs/" target="_blank">
+									<span class="icon"><img src="/img/svg/facebook-icon.svg"></span>
+									<span class="text"><%= _T("Like us") %></span>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/SiaTechHQ" target="_blank">
+									<span class="icon"><img src="/img/svg/twitter-icon.svg"></span>
+									<span class="text"><%= _T("Follow us") %></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<p>
+							<span class="copyright">&copy; <%= _T("Nebulous Inc.") %></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<%- iris.print("script,inline-script", "footer") %>
+	<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
+</body>
+</html>

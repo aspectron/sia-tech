@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title><%= _T("Sia.tech") %></title>
+	<style>
+		html, body {padding:0px;margin:0px;overflow: hidden;}
+		body{background:#ebedef;font-size: 13px;line-height: 18px;color:#29323d;font-family:sans-serif;}
+		#message{
+			position:absolute;left:50%;top:50%;
+			max-width:320px;min-width:200px;padding: 16px;
+			margin:0px auto;background-color:#FFF;
+			padding:24px;border-radius:3px;
+			word-wrap:break-word;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 8px -2px rgba(0, 0, 0, 0.1);
+			-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 8px -2px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 8px -2px rgba(0, 0, 0, 0.1)
+		}
+		a {color:#000;text-decoration: none;}
+		.back-link{text-align:center;}
+	</style>
+</head>
+<body>
+	<div id="message">
+		<% if(typeof error != 'undefined' && error.stack){ %>
+			<h2><%= error.status %></h2>
+			<pre><%= error.stack %></pre>
+		<% }else{ %>
+			<h2><%= typeof heading != 'undefined' ? heading: "Error" %></h2>
+			<p><%= typeof message != 'undefined' ? message : "" %></p>
+		<% } %>
+		<div class="back-link"><a href="/"><%= _T("Back to Home Page") %></a></div>
+	</div>
+	<script type="text/javascript">
+		var message = document.getElementById('message'),
+			marginTop = -Math.round(message.offsetHeight / 2),
+			marginLeft = -Math.round(message.offsetWidth / 2);
+		message.setAttribute('style', 'margin-top: '+marginTop+'px !important;margin-left: '+marginLeft+'px !important;');
+	</script>
+</body>
+</html>

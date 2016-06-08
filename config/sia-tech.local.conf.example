@@ -1,0 +1,18 @@
+{
+    http : {
+        host : '127.0.0.1'
+    },
+    mailer: {
+        service: 'Gmail',
+        auth: {
+            user: 'xxxxx',
+            pass: 'xxxx'
+        }
+    },
+    getInTouch:{
+        to: "admin@sia.tech",
+        from: "admin@sia.tech",
+        subject: "{name} want to contact you",
+        text: "{name} ({email}) \n\n Message: \n{message}"
+    }
+}
