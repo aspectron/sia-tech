@@ -3008,21 +3008,6 @@ a0962a47cafe0e94.locale.zh_HANT "現在下載"
 a0962a47cafe0e94.locale.fr  "Télécharger maintenant"
 a0962a47cafe0e94.locale.ru  "Скачать сейчас "
 a0962a47cafe0e94.
-3756598debb980b.
-3756598debb980b.hash       "3756598debb980b"
-3756598debb980b.sha1       "f84729f69babdf8f3a798347c10343173118f7a9"
-3756598debb980b.category   "basic"
-3756598debb980b.original   "en"
-3756598debb980b.multiline  false
-3756598debb980b.orphan     false
-3756598debb980b.ts         1464737726866
-3756598debb980b.file       "views/index.ejs"
-3756598debb980b.locale.en  "Need help to get started?"
-3756598debb980b.locale.zh_HANS "你需要帮助来启动吗？"
-3756598debb980b.locale.zh_HANT "你需要幫助來啓動嗎？"
-3756598debb980b.locale.fr  "Besoin d'aide pour commencer?"
-3756598debb980b.locale.ru  "Нужна помощь, чтобы начать? "
-3756598debb980b.
 4aad94963ba31562.
 4aad94963ba31562.hash       "4aad94963ba31562"
 4aad94963ba31562.sha1       "8b6bd13ad5a17270d733311f5f7b311fc6f8c868"
@@ -3774,3 +3759,18 @@ fae702657e46e0da.locale.zh_HANT "細亞使用一個加密數字貨幣，細亞�
 fae702657e46e0da.locale.fr  "Sia utilise un crypto-monnaie, Siacoin, pour permettre les paiements décentralisés. Siacoin peut être considéré comme une extension de Bitcoin qui ajoute le support pour les contrats de fichiers. Comme Bitcoin, Siacoin utilise un blockchain, et est alimenté par l'exploitation minière \"proof-of-work\". Cependant, Siacoin et Bitcoin ne sont pas en concurrence directe. Bitcoin est une monnaie à usage général, tandis que Siacoin existe uniquement pour mettre en marche le réseau Sia."
 fae702657e46e0da.locale.ru  "Sia использует криптовалюту саякойн для осуществления децентрализованных платежей. Саякойн можно рассматривать как расширение Биткойн, которое поддерживает файловые контракты. Как и Биткойн, Саякойн использует блокчейн, а также концепт \"proof-of-work\" при майнинге. В то же время Саякойн и Биткойн не являются прямыми конкурентами. Биткойн является валютой общего назначения, в то время как Саякойн существует только для поддержания работы сети Sia."
 fae702657e46e0da.
+e257bca23abf595.
+e257bca23abf595.hash       "e257bca23abf595"
+e257bca23abf595.sha1       "133d443f139f7cb2c41032b03c862b879b39cf40"
+e257bca23abf595.category   "basic"
+e257bca23abf595.original   "en"
+e257bca23abf595.multiline  false
+e257bca23abf595.orphan     false
+e257bca23abf595.ts         1466533845908
+e257bca23abf595.file       "views/index.ejs"
+e257bca23abf595.locale.en  "Need help getting started?"
+e257bca23abf595.locale.zh_HANS "你需要帮助来启动吗？"
+e257bca23abf595.locale.zh_HANT "你需要幫助來啓動嗎？"
+e257bca23abf595.locale.fr  "Besoin d'aide pour commencer?"
+e257bca23abf595.locale.ru  "Нужна помощь, чтобы начать? "
+e257bca23abf595.
