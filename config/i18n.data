@@ -3583,7 +3583,7 @@ dad8bad1af1d5a7d.
 99929557928dfc6e.category   "basic"
 99929557928dfc6e.original   "en"
 99929557928dfc6e.multiline  false
-99929557928dfc6e.orphan     false
+99929557928dfc6e.orphan     true
 99929557928dfc6e.ts         1464737728643
 99929557928dfc6e.locale.en  "A Community"
 99929557928dfc6e.locale.zh_HANS "社区"
@@ -3774,3 +3774,13 @@ e257bca23abf595.locale.zh_HANT "你需要幫助來啓動嗎？"
 e257bca23abf595.locale.fr  "Besoin d'aide pour commencer?"
 e257bca23abf595.locale.ru  "Нужна помощь, чтобы начать? "
 e257bca23abf595.
+c2c9c5235d9c1565.
+c2c9c5235d9c1565.hash       "c2c9c5235d9c1565"
+c2c9c5235d9c1565.sha1       "c35c35ef26a5a25eb71d373deeae3b4c34a06288"
+c2c9c5235d9c1565.category   "basic"
+c2c9c5235d9c1565.original   "en"
+c2c9c5235d9c1565.multiline  false
+c2c9c5235d9c1565.orphan     false
+c2c9c5235d9c1565.ts         1466577698438
+c2c9c5235d9c1565.locale.en  "BitcoinTalk"
+c2c9c5235d9c1565.
