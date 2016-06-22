@@ -30,7 +30,8 @@
 		base = code == _T.source ? '' : '/'+code+suffix;
 		languagesMenuItem.push({
 			"href": base+req.url,
-			"text": l.name
+			"text": l.name,
+			"cls": "skip-menu-prefix"
 		})
 	});
 
@@ -98,7 +99,7 @@
 	<link rel="home" href="http://sia.tech/" />
 	<%- iris.print("meta,css,inline-css,script,inline-script", "header") %>
 </head>
-<body>
+<body menu-prefix="<%= menuPrefix || "" %>">
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
