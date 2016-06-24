@@ -1631,7 +1631,7 @@ c4fddd3961c2df95.locale.en  "Locking is part of the encryption. When you first o
 c4fddd3961c2df95.locale.zh_HANS "锁住是加密的一部分。当你第一次打开一个钱包的时候，它是被锁住的。里面的币不能被用。矿工，文件管理员和接管者也被禁用。"
 c4fddd3961c2df95.locale.zh_HANT "鎖住是加密的一部分。當你第一次打開一個錢包的時候，它是被鎖住的。裏面的幣不能被用。礦工，文件管理員和接管者也被禁用。"
 c4fddd3961c2df95.locale.fr  "Le verrouillage est une partie du cryptage. Lorsque vous ouvrez un portefeuille, il sera verrouillé. Les coins ne peuvent pas être dépensés alors que le portefeuille est verrouillé. Le mineur, gestionnaire de fichiers, et l'hôte seront également désactivés tandis que le portefeuille est verrouillé."
-c4fddd3961c2df95.locale.ru  "Блокировка — это часть шифрования. Когда вы впервые открываете кошелёк, он будет заблокирвоан. Средства не могут быть потрачены, когда кошелёк заблокирован. Майнер, файловый менеджер и хост также будут отключены, пока кошелёк заблокирован."
+c4fddd3961c2df95.locale.ru  "Блокировка — это часть шифрования. Когда вы впервые открываете кошелёк, он будет заблокирван. Средства не могут быть потрачены, когда кошелёк заблокирован. Майнер, файловый менеджер и хост также будут отключены, пока кошелёк заблокирован."
 c4fddd3961c2df95.
 ba91619fdce5988.
 ba91619fdce5988.hash       "ba91619fdce5988"
@@ -2373,7 +2373,7 @@ fc6326db54f73fe6.locale.en  "No. All files uploaded by siad are first erasure co
 fc6326db54f73fe6.locale.zh_HANS "不行。所有上载的文件首先会被加码抹去然后加密。只有那些有文件元数据的人才可以看到原始文件。作为一个额外的保护，一些信息像准确的文件大小也不会被那些没有元数据的人看到。"
 fc6326db54f73fe6.locale.zh_HANT "不行。所有上載的文件首先會被加碼抹去然後加密。只有那些有文件元數據的人才可以看到原始文件。作爲一個額外的保護，一些信息像准確的文件大小也不會被那些沒有元數據的人看到。"
 fc6326db54f73fe6.locale.fr  "Non. Tous les fichiers téléchargés par siad sont traverser l'effacement codé puis sont crypté. Seule une personne avec les métadonnées du fichier sera en mesure d'afficher le fichier d'origine. Comme une protection supplémentaire, des informations telles que la taille du fichier exact est également caché de quelqu'un sans les métadonnées."
-fc6326db54f73fe6.locale.ru  "Нет. Все загруженные siad файлы сначала кодируются с избыточностью, а затем шифруются. Только кто-либо с доступом к метаданным файла сможет посмотреть оригинальный файл. В качестве дополнительной задиты, информация вроде точного размера файла также скрыта от всех, кто не знает метаданных."
+fc6326db54f73fe6.locale.ru  "Нет. Все загруженные siad файлы сначала кодируются с избыточностью, а затем шифруются. Только кто-либо с доступом к метаданным файла сможет посмотреть оригинальный файл. В качестве дополнительной защиты, информация вроде точного размера файла также скрыта от всех, кто не знает метаданных."
 fc6326db54f73fe6.
 a23059c88868f0cf.
 a23059c88868f0cf.hash       "a23059c88868f0cf"
