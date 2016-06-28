@@ -3784,3 +3784,18 @@ c2c9c5235d9c1565.orphan     false
 c2c9c5235d9c1565.ts         1466577698438
 c2c9c5235d9c1565.locale.en  "BitcoinTalk"
 c2c9c5235d9c1565.
+8a51fc88891a030.
+8a51fc88891a030.hash       "8a51fc88891a030"
+8a51fc88891a030.sha1       "601ad88890af476748a625a9b6e63d407a8c8f81"
+8a51fc88891a030.category   "basic"
+8a51fc88891a030.original   "en"
+8a51fc88891a030.multiline  false
+8a51fc88891a030.orphan     false
+8a51fc88891a030.ts         1467105689979
+8a51fc88891a030.file       "views/get-started.ejs"
+8a51fc88891a030.locale.en  "Get SiaCoin with file contracts."
+8a51fc88891a030.locale.fr  "Obtenez SiaCoin avec des contrats de fichiers."
+8a51fc88891a030.locale.ru  "Получить Сиакойнс файловыми контрактами."
+8a51fc88891a030.locale.zh_HANS "得到细亚币用文件合同"
+8a51fc88891a030.locale.zh_HANT "得到細亞幣用文件合同"
+8a51fc88891a030.
