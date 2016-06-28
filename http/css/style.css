@@ -1085,7 +1085,7 @@ main > section.tabs .nav-tabs li.active a:hover p { color: #F5F5F5; }
 main > section.tabs .tab-content { background-color: #0B0E16; padding: 5rem 0; margin-bottom: -5rem; vertical-align: middle; height: auto; }
 main > section.tabs .tab-content h1 { color: #00CBA0; text-align: left; padding: 0 0 3rem 0; }
 main > section.tabs .tab-content h3 { color: #eceeef; margin-left: 2.25rem; margin-top: .5rem; }
-main > section.tabs .tab-content ol { display: block; list-style: none; counter-reset: numList; white-space: nowrap; }
+main > section.tabs .tab-content ol { display: block; list-style: none; counter-reset: numList; }
 main > section.tabs .tab-content ol li { display: block; position: relative; color: #F5F5F5; }
 main > section.tabs .tab-content ol li:before { counter-increment: numList; content: counter(numList); display: block; position: absolute; font-size: 1.85rem; text-align: center; color: #fff; margin-left: -36px; margin-top: -8px; width: 50px; height: 50px; border: 2px solid #00CBA0; border-radius: 999px; }
 main > section.tabs .tab-content svg { width: 100%; }
