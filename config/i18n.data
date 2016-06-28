@@ -2798,36 +2798,6 @@ ab0ce566d53743a.
 1ef2f2ec35242d3b.locale.fr  "Agriculturez des Siacoins"
 1ef2f2ec35242d3b.locale.ru  "Для хостинга за саякойны:"
 1ef2f2ec35242d3b.
-fe0fad6ffd2a72da.
-fe0fad6ffd2a72da.hash       "fe0fad6ffd2a72da"
-fe0fad6ffd2a72da.sha1       "f9cf7682e55ec189634a3ac7fb1240bb221e6605"
-fe0fad6ffd2a72da.category   "basic"
-fe0fad6ffd2a72da.original   "en"
-fe0fad6ffd2a72da.multiline  false
-fe0fad6ffd2a72da.orphan     false
-fe0fad6ffd2a72da.ts         1464737726864
-fe0fad6ffd2a72da.file       "views/get-started.ejs"
-fe0fad6ffd2a72da.locale.en  "Create a storage offer."
-fe0fad6ffd2a72da.locale.zh_HANS "制造一个储存的邀请"
-fe0fad6ffd2a72da.locale.zh_HANT "制造一個儲存的邀請"
-fe0fad6ffd2a72da.locale.fr  "Créez une offre de stockage"
-fe0fad6ffd2a72da.locale.ru  "Предложить оферту для хранения данных."
-fe0fad6ffd2a72da.
-f90ddfaad84d3407.
-f90ddfaad84d3407.hash       "f90ddfaad84d3407"
-f90ddfaad84d3407.sha1       "62a59d80f614c13f4e285078ec409ff1108421dc"
-f90ddfaad84d3407.category   "basic"
-f90ddfaad84d3407.original   "en"
-f90ddfaad84d3407.multiline  false
-f90ddfaad84d3407.orphan     false
-f90ddfaad84d3407.ts         1464737726865
-f90ddfaad84d3407.file       "views/get-started.ejs"
-f90ddfaad84d3407.locale.en  "Get <a href=\"http://sia.tech/get-siacoin\">SiaCoin</a> with file contracts."
-f90ddfaad84d3407.locale.zh_HANS "得到<a href=\"http://sia.tech/get-siacoin\">细亚币</a> 用文件合同"
-f90ddfaad84d3407.locale.zh_HANT "得到<a href=\"http://sia.tech/get-siacoin\">細亞幣</a> 用文件合同"
-f90ddfaad84d3407.locale.fr  " Obtenez  <a href=\"http://sia.tech/get-siacoin\">SiaCoin</a> avec des contrats de fichiers."
-f90ddfaad84d3407.locale.ru  "Получить <a href=\"http://sia.tech/get-siacoin\">саякойн</a>с файловыми контрактами."
-f90ddfaad84d3407.
 58a2f6db7304a206.
 58a2f6db7304a206.hash       "58a2f6db7304a206"
 58a2f6db7304a206.sha1       "b147f3f2aa2c0741dc68c035fe3566d286abaa27"
@@ -2858,21 +2828,6 @@ f90ddfaad84d3407.
 7101be01683cd06.locale.fr  "Télécharger <a href=\"/apps\">Sia Miner</a>"
 7101be01683cd06.locale.ru  "Скачайте <a href=\"/apps\">Sia майнер</a>"
 7101be01683cd06.
-678ec44a6578ddc2.
-678ec44a6578ddc2.hash       "678ec44a6578ddc2"
-678ec44a6578ddc2.sha1       "c2cb7d4be35e55cbd90088b738adf66143722970"
-678ec44a6578ddc2.category   "basic"
-678ec44a6578ddc2.original   "en"
-678ec44a6578ddc2.multiline  false
-678ec44a6578ddc2.orphan     false
-678ec44a6578ddc2.ts         1464737726865
-678ec44a6578ddc2.file       "views/get-started.ejs"
-678ec44a6578ddc2.locale.en  "Help secure the network."
-678ec44a6578ddc2.locale.zh_HANS "帮助我们来保护网络"
-678ec44a6578ddc2.locale.zh_HANT "帮助我们来保护网络"
-678ec44a6578ddc2.locale.fr  "Sécuriser le réseau."
-678ec44a6578ddc2.locale.ru  "Способствуйте безопасности сети "
-678ec44a6578ddc2.
 4623b45e96b03661.
 4623b45e96b03661.hash       "4623b45e96b03661"
 4623b45e96b03661.sha1       "54bf8ba79c36501b5d69026efaeac72d9ceff4c2"
@@ -2918,21 +2873,6 @@ eeb9a34af484fd9.locale.zh_HANT "加入我們 <a href=\"https://github.com/Nebulo
 eeb9a34af484fd9.locale.fr  "Joignez-vous à notre <a href=\"https://github.com/NebulousLabs/Sia\"> GitHub </a>."
 eeb9a34af484fd9.locale.ru  "Присоединяйтесь к нашему <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>."
 eeb9a34af484fd9.
-3eb54afea9d1fb4.
-3eb54afea9d1fb4.hash       "3eb54afea9d1fb4"
-3eb54afea9d1fb4.sha1       "503a41ed958d832100b8c2e0ba17ae1357bf162b"
-3eb54afea9d1fb4.category   "basic"
-3eb54afea9d1fb4.original   "en"
-3eb54afea9d1fb4.multiline  false
-3eb54afea9d1fb4.orphan     false
-3eb54afea9d1fb4.ts         1464737726865
-3eb54afea9d1fb4.file       "views/get-started.ejs"
-3eb54afea9d1fb4.locale.en  "Consult our <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">documentation</a>."
-3eb54afea9d1fb4.locale.zh_HANS "咨询我们在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文档资料</a>"
-3eb54afea9d1fb4.locale.zh_HANT "咨詢我們在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文檔資料</a>"
-3eb54afea9d1fb4.locale.fr  "Consultez notre <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\"> documentation </a>."
-3eb54afea9d1fb4.locale.ru  "Ознакомьтесь с нашей <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">документацией</a>"
-3eb54afea9d1fb4.
 3e77e69e28fd9932.
 3e77e69e28fd9932.hash       "3e77e69e28fd9932"
 3e77e69e28fd9932.sha1       "dd583b95e5ea2059f5fc77ee0bf44cc3b3f2d405"
@@ -3784,18 +3724,78 @@ c2c9c5235d9c1565.orphan     false
 c2c9c5235d9c1565.ts         1466577698438
 c2c9c5235d9c1565.locale.en  "BitcoinTalk"
 c2c9c5235d9c1565.
-8a51fc88891a030.
-8a51fc88891a030.hash       "8a51fc88891a030"
-8a51fc88891a030.sha1       "601ad88890af476748a625a9b6e63d407a8c8f81"
-8a51fc88891a030.category   "basic"
-8a51fc88891a030.original   "en"
-8a51fc88891a030.multiline  false
-8a51fc88891a030.orphan     false
-8a51fc88891a030.ts         1467105689979
-8a51fc88891a030.file       "views/get-started.ejs"
-8a51fc88891a030.locale.en  "Get SiaCoin with file contracts."
-8a51fc88891a030.locale.fr  "Obtenez SiaCoin avec des contrats de fichiers."
-8a51fc88891a030.locale.ru  "Получить Сиакойнс файловыми контрактами."
-8a51fc88891a030.locale.zh_HANS "得到细亚币用文件合同"
-8a51fc88891a030.locale.zh_HANT "得到細亞幣用文件合同"
-8a51fc88891a030.
+5a574fe17e378791.
+5a574fe17e378791.hash       "5a574fe17e378791"
+5a574fe17e378791.sha1       "16c49fa62239a4eea9915dd287be9fbc3ae01d61"
+5a574fe17e378791.category   "basic"
+5a574fe17e378791.original   "en"
+5a574fe17e378791.multiline  false
+5a574fe17e378791.orphan     false
+5a574fe17e378791.ts         1467106535053
+5a574fe17e378791.file       "views/get-started.ejs"
+5a574fe17e378791.locale.en  "Create a storage offer"
+5a574fe17e378791.locale.fr  "Créez une offre de stockage"
+5a574fe17e378791.locale.ru  "Предложить оферту для хранения данных"
+5a574fe17e378791.locale.zh_HANS "制造一个储存的邀请"
+5a574fe17e378791.locale.zh_HANT "制造一個儲存的邀請"
+5a574fe17e378791.
+4e9785c6e7eaaeef.
+4e9785c6e7eaaeef.hash       "4e9785c6e7eaaeef"
+4e9785c6e7eaaeef.sha1       "0f0b485e48c5176e0cb530f32caf8ff3993a8545"
+4e9785c6e7eaaeef.category   "basic"
+4e9785c6e7eaaeef.original   "en"
+4e9785c6e7eaaeef.multiline  false
+4e9785c6e7eaaeef.orphan     false
+4e9785c6e7eaaeef.ts         1467106535054
+4e9785c6e7eaaeef.file       "views/get-started.ejs"
+4e9785c6e7eaaeef.locale.en  "Get SiaCoin with file contracts"
+4e9785c6e7eaaeef.locale.fr  "Obtenez SiaCoin avec des contrats de fichiers"
+4e9785c6e7eaaeef.locale.ru  "Получить Сиакойнс файловыми контрактами"
+4e9785c6e7eaaeef.locale.zh_HANS "得到细亚币用文件合同"
+4e9785c6e7eaaeef.locale.zh_HANT "得到細亞幣用文件合同"
+4e9785c6e7eaaeef.
+42512384a2030981.
+42512384a2030981.hash       "42512384a2030981"
+42512384a2030981.sha1       "fd40d6248484681c3b4716163c87956472edef76"
+42512384a2030981.category   "basic"
+42512384a2030981.original   "en"
+42512384a2030981.multiline  false
+42512384a2030981.orphan     false
+42512384a2030981.ts         1467106535054
+42512384a2030981.file       "views/get-started.ejs"
+42512384a2030981.locale.en  "Help secure the network"
+42512384a2030981.locale.fr  "Sécuriser le réseau"
+42512384a2030981.locale.ru  "Способствуйте безопасности сети "
+42512384a2030981.locale.zh_HANS "帮助我们来保护网络"
+42512384a2030981.locale.zh_HANT "帮助我们来保护网络"
+42512384a2030981.
+4e3d0984f3ac1f62.
+4e3d0984f3ac1f62.hash       "4e3d0984f3ac1f62"
+4e3d0984f3ac1f62.sha1       "a4a2d7a8d418000dc40aeac21a51229aaaa4386a"
+4e3d0984f3ac1f62.category   "basic"
+4e3d0984f3ac1f62.original   "en"
+4e3d0984f3ac1f62.multiline  false
+4e3d0984f3ac1f62.orphan     false
+4e3d0984f3ac1f62.ts         1467106535054
+4e3d0984f3ac1f62.file       "views/get-started.ejs"
+4e3d0984f3ac1f62.locale.en  "Join our <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.locale.fr  "Joignez-vous à notre <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.locale.ru  "Присоединяйтесь к нашему <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.locale.zh_HANS "加入我们 <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.locale.zh_HANT "加入我們 <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.
+7e17bbb0ea0a25bf.
+7e17bbb0ea0a25bf.hash       "7e17bbb0ea0a25bf"
+7e17bbb0ea0a25bf.sha1       "41a63b550fb59412f3dcbd9f153c64b07a5d4dff"
+7e17bbb0ea0a25bf.category   "basic"
+7e17bbb0ea0a25bf.original   "en"
+7e17bbb0ea0a25bf.multiline  false
+7e17bbb0ea0a25bf.orphan     false
+7e17bbb0ea0a25bf.ts         1467106535054
+7e17bbb0ea0a25bf.file       "views/get-started.ejs"
+7e17bbb0ea0a25bf.locale.en  "Consult our <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">documentation</a>"
+7e17bbb0ea0a25bf.locale.fr  "Consultez notre <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">documentation</a>"
+7e17bbb0ea0a25bf.locale.ru  "Ознакомьтесь с нашей <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">документацией</a>"
+7e17bbb0ea0a25bf.locale.zh_HANS "咨询我们在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文档资料</a>"
+7e17bbb0ea0a25bf.locale.zh_HANT "咨詢我們在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文檔資料</a>"
+7e17bbb0ea0a25bf.
