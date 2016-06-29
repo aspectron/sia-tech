@@ -947,21 +947,6 @@ b6c98d91e5e68b22.
 6c616bb551d44fbb.locale.fr  "Sécuriser le réseau"
 6c616bb551d44fbb.locale.ru  "Поддерживайте безопасность сети"
 6c616bb551d44fbb.
-3c3ba90ed12e69ba.
-3c3ba90ed12e69ba.hash       "3c3ba90ed12e69ba"
-3c3ba90ed12e69ba.sha1       "4b38aa54e1266b86b9e9a86b09c25d0dab65ce4e"
-3c3ba90ed12e69ba.category   "basic"
-3c3ba90ed12e69ba.original   "en"
-3c3ba90ed12e69ba.multiline  false
-3c3ba90ed12e69ba.orphan     false
-3c3ba90ed12e69ba.ts         1464737726852
-3c3ba90ed12e69ba.file       "views/apps.ejs"
-3c3ba90ed12e69ba.locale.en  "Download v0.6.0-beta"
-3c3ba90ed12e69ba.locale.zh_HANS "下载 v0.6.0-beta"
-3c3ba90ed12e69ba.locale.zh_HANT "下載 v0.6.0-beta"
-3c3ba90ed12e69ba.locale.fr  "Télécharger v0.6.0-beta"
-3c3ba90ed12e69ba.locale.ru  "Скачать v0.6.0-beta"
-3c3ba90ed12e69ba.
 9160346367af47d1.
 9160346367af47d1.hash       "9160346367af47d1"
 9160346367af47d1.sha1       "5f38b73a5025ee05bcb756683385ef97b8f0b72a"
@@ -993,22 +978,6 @@ b6c98d91e5e68b22.
 27c84b1fc58c801e.locale.fr  "Fixer le blockchain et recevez des Siacoin"
 27c84b1fc58c801e.locale.ru  "Обеспечивайте безопасность блокчейна и получайте саякойны"
 27c84b1fc58c801e.
-b96129b34a4aef16.
-b96129b34a4aef16.hash       "b96129b34a4aef16"
-b96129b34a4aef16.sha1       "0a25de0d6ce73a623020c086b94463ce8b13f098"
-b96129b34a4aef16.category   "basic"
-b96129b34a4aef16.original   "en"
-b96129b34a4aef16.multiline  false
-b96129b34a4aef16.orphan     false
-b96129b34a4aef16.ts         1464737726852
-b96129b34a4aef16.file       "views/apps.ejs"
-b96129b34a4aef16.locale.en  "Download v1.0.5"
-b96129b34a4aef16.locale.zh_HANS "下载v1.0.5"
-b96129b34a4aef16.locale.zh_HANT "下載v1.0.5"
-b96129b34a4aef16.locale.fr  "Télécharger v1.0.5"
-b96129b34a4aef16.locale.no  "Last ned v1.0.5"
-b96129b34a4aef16.locale.ru  "Скачать v1.0.5"
-b96129b34a4aef16.
 3c72b88f49f1e55.
 3c72b88f49f1e55.hash       "3c72b88f49f1e55"
 3c72b88f49f1e55.sha1       "d833f91590ac79f822a021ae65eeca80859d9c9b"
@@ -3799,3 +3768,18 @@ c2c9c5235d9c1565.
 7e17bbb0ea0a25bf.locale.zh_HANS "咨询我们在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文档资料</a>"
 7e17bbb0ea0a25bf.locale.zh_HANT "咨詢我們在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文檔資料</a>"
 7e17bbb0ea0a25bf.
+2821e83185bd5029.
+2821e83185bd5029.hash       "2821e83185bd5029"
+2821e83185bd5029.sha1       "a479c9c34e878d07b4d67a73a48f432ad7dc53c8"
+2821e83185bd5029.category   "basic"
+2821e83185bd5029.original   "en"
+2821e83185bd5029.multiline  false
+2821e83185bd5029.orphan     false
+2821e83185bd5029.ts         1467227596300
+2821e83185bd5029.file       "views/apps.ejs"
+2821e83185bd5029.locale.en  "Download"
+2821e83185bd5029.locale.fr  "Télécharger"
+2821e83185bd5029.locale.ru  "Скачать"
+2821e83185bd5029.locale.zh_HANS "下载"
+2821e83185bd5029.locale.zh_HANT "下載"
+2821e83185bd5029.
