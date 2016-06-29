@@ -48,10 +48,6 @@
 			<div class="row">
 			<%
 			var builtOnSia = [{
-				"title": _T("Sunfish"),
-				"desciption": _T("Share and search for files with Sunfish."),
-				"link": "http://staging.siafiles.com/"
-			},{
 				"title": _T("Block explorer"),
 				"desciption": _T("Sia Blockchain Explorer."),
 				"link": "http://explore.siacoin.com/"
@@ -62,7 +58,7 @@
 			}]
 
 			_.each(builtOnSia, function(p, i){ %>
-				<div class="col-lg-2 col-lg-offset-<%= i%3 == 0 ? "2": "1" %>">
+				<div class="col-lg-3 col-lg-push-1 col-lg-offset-<%= i%3 == 0 ? "2": "1" %>">
 					<h4><%= p.title %></h4>
 					<p><%= p.desciption %></p>
 					<p><a href="<%= p.link %>" target="_blank"><%= p.link.split("/")[2] %></a></p>
