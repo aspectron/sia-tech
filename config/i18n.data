@@ -900,7 +900,7 @@ b6c98d91e5e68b22.locale.en  "The official wallet for Siacoin"
 b6c98d91e5e68b22.locale.zh_HANS "细亚的官方钱包软件"
 b6c98d91e5e68b22.locale.zh_HANT "細亞的官方錢包軟件"
 b6c98d91e5e68b22.locale.fr  "Le porte-monnaie officielle pour Siacoin"
-b6c98d91e5e68b22.locale.ru  "Официальный кошелёк для Сиакойнов"
+b6c98d91e5e68b22.locale.ru  "Официальный кошелёк для саякойнов"
 b6c98d91e5e68b22.
 61d70054fff5a75e.
 61d70054fff5a75e.hash       "61d70054fff5a75e"
@@ -915,7 +915,7 @@ b6c98d91e5e68b22.
 61d70054fff5a75e.locale.zh_HANS "租用你的储存空间然后收取细亚币"
 61d70054fff5a75e.locale.zh_HANT "租用你的儲存空間然後收取細亞幣"
 61d70054fff5a75e.locale.fr  "Louez votre espace de stockage et recevez des Siacoins"
-61d70054fff5a75e.locale.ru  "Сдавайте в аренду ваше дисковое пространство и получайте Сиакойны"
+61d70054fff5a75e.locale.ru  "Сдавайте в аренду ваше дисковое пространство и получайте саякойны"
 61d70054fff5a75e.
 5fd0914da0de172d.
 5fd0914da0de172d.hash       "5fd0914da0de172d"
@@ -991,7 +991,7 @@ b6c98d91e5e68b22.
 27c84b1fc58c801e.locale.zh_HANS "保护区块链然后得到细亚币"
 27c84b1fc58c801e.locale.zh_HANT "保護區塊鏈然後得到細亞幣"
 27c84b1fc58c801e.locale.fr  "Fixer le blockchain et recevez des Siacoin"
-27c84b1fc58c801e.locale.ru  "Обеспечивайте безопасность блокчейна и получайте Сиакойны"
+27c84b1fc58c801e.locale.ru  "Обеспечивайте безопасность блокчейна и получайте саякойны"
 27c84b1fc58c801e.
 b96129b34a4aef16.
 b96129b34a4aef16.hash       "b96129b34a4aef16"
@@ -1314,7 +1314,7 @@ f2e2253f721f6fb.
 8c1eefb59db94c8f.locale.zh_HANS "一个文件合同让一个托管者和一个租用者对于一个文件达成协议；托管者同意在一段时间内储存一个文件，然后收取一定的费用。租用者一开始付所有的币，区块链作为第三方托管。如果托管者保存了文件然后最后发了一个储存的证明，他就会取得付款。反之，这些支付会被退回给租用者。所有的支付都用细亚自己的币完成。"
 8c1eefb59db94c8f.locale.zh_HANT "一个文件合同让一个托管者和一个租用者对于一个文件达成协议；托管者同意在一段时间内储存一个文件，然后收取一定的费用。租用者一开始付所有的币，区块链作为第三方托管。如果托管者保存了文件然后最后发了一个储存的证明，他就会取得付款。反之，这些支付会被退回给租用者。所有的支付都用细亚自己的币完成。"
 8c1eefb59db94c8f.locale.fr  "Un contrat de fichier permet à un hôte et un locataire à faire un accord sur un fichier; l'hôte accepte de stocker un fichier pour une certaine durée de temps, puis est payé un peu d'argent pour ce service. Le locataire paie toutes les pièces en avance, et blockchain agit comme dépôt fiduciaire. Si l'hôte conserve le fichier et soumet une preuve de stockage à la fin, l'hôte va obtenir le paiement. Sinon, (selon les termes du contrat), le paiement est retourné au téléchargeur. Tous les paiements doivent être faits avec la monnaie locale de Sia, le siacoin."
-8c1eefb59db94c8f.locale.ru  "Файловый контракт позволяет хосту и арендатору договориться о файле; хост соглашается хранить файл в течение определённого срока, а затем получает платёж за исполнение этих обязательств. Арендатор производит предварительную оплату, а блокчейн используется для гарантии сделки. Если хост хранит файл и отправляет подтверждение хранения в конце, хост получает платёж. Иначе, (в зависимости от условий контракта), платёж возвращается арендатору. Все платежи производятся в локальной валюте Sia, сиакойнах. "
+8c1eefb59db94c8f.locale.ru  "Файловый контракт позволяет хосту и арендатору договориться о файле; хост соглашается хранить файл в течение определённого срока, а затем получает платёж за исполнение этих обязательств. Арендатор производит предварительную оплату, а блокчейн используется для гарантии сделки. Если хост хранит файл и отправляет подтверждение хранения в конце, хост получает платёж. Иначе, (в зависимости от условий контракта), платёж возвращается арендатору. Все платежи производятся в локальной валюте Sia, саякойнах. "
 8c1eefb59db94c8f.
 4b952009852cfdba.
 4b952009852cfdba.hash       "4b952009852cfdba"
@@ -1390,7 +1390,7 @@ b2f936d5723a50c.
 3f38dfe682d97ff5.locale.zh_HANT "細亞幣"
 3f38dfe682d97ff5.locale.fr  "Siacoins"
 3f38dfe682d97ff5.locale.no  "Siacoins"
-3f38dfe682d97ff5.locale.ru  "Сиакойны"
+3f38dfe682d97ff5.locale.ru  "Саякойны"
 3f38dfe682d97ff5.
 c40a2541777894af.
 c40a2541777894af.hash       "c40a2541777894af"
@@ -1406,7 +1406,7 @@ c40a2541777894af.locale.zh_HANS "细亚币和比特币之间的区别在哪里�
 c40a2541777894af.locale.zh_HANT "細亞幣和比特幣之間的區別在哪裏？"
 c40a2541777894af.locale.fr  "Quelle est la différence entre Siacoin et Bitcoin?"
 c40a2541777894af.locale.no  "Hva er forskjellen mellom Siacoin og Bitcoin?"
-c40a2541777894af.locale.ru  "В чём разница между Сиакойнами и Биткойнами?"
+c40a2541777894af.locale.ru  "В чём разница между саякойнами и биткойнами?"
 c40a2541777894af.
 4616a411b3941282.
 4616a411b3941282.hash       "4616a411b3941282"
@@ -1451,7 +1451,7 @@ da208f3a9e978c9.locale.en  "How can I get siacoins?"
 da208f3a9e978c9.locale.zh_HANS "我怎样才能得到细亚币？"
 da208f3a9e978c9.locale.zh_HANT "我怎樣才能得到細亞幣？"
 da208f3a9e978c9.locale.fr  "Comment puis-je obtenir des siacoins?"
-da208f3a9e978c9.locale.ru  "Как я могу получить сиакойны?"
+da208f3a9e978c9.locale.ru  "Как я могу получить саякойны?"
 da208f3a9e978c9.
 198c8e5e4a333512.
 198c8e5e4a333512.hash       "198c8e5e4a333512"
@@ -1466,7 +1466,7 @@ da208f3a9e978c9.
 198c8e5e4a333512.locale.zh_HANS "你先需要比特币才能得到细亚币。最普通得到细亚币的办法是上Poloniex。其他还有在Bitcoin talk上和我们在Slack上的交易渠道。"
 198c8e5e4a333512.locale.zh_HANT "你先需要比特幣才能得到細亞幣。最普通得到細亞幣的辦法是上Poloniex。其他還有在Bitcoin talk上和我們在Slack上的交易渠道。"
 198c8e5e4a333512.locale.fr  "Vous aurez besoin d'acquérir des bitcoins pour obtenir des siacoins. L'endroit le plus commun pour obtenir des pièces de monnaie sia est Poloniex. Il y a aussi des négociation possibles sur talk Bitcoin et un canal de négociation dans notre Slack."
-198c8e5e4a333512.locale.ru  "Вам нужны биткойны чтобы приобрести сиакойны. Самое частое место приобритения сиакойнов - Poloniex. Также есть торговая тема на bitcointalk и торговый канал в нашем slack."
+198c8e5e4a333512.locale.ru  "Вам нужны биткойны чтобы приобрести саякойны. Самое частое место приобритения саякойнов - Poloniex. Также есть торговая тема на bitcointalk и торговый канал в нашем slack."
 198c8e5e4a333512.
 51ede15f1add567.
 51ede15f1add567.hash       "51ede15f1add567"
@@ -1481,7 +1481,7 @@ da208f3a9e978c9.
 51ede15f1add567.locale.zh_HANS "有多少细亚币存在？"
 51ede15f1add567.locale.zh_HANT "有多少細亞幣存在？"
 51ede15f1add567.locale.fr  "Combien de siacoins existera-t-il?"
-51ede15f1add567.locale.ru  "Сколько сиакойнов будет существовать?"
+51ede15f1add567.locale.ru  "Сколько саякойнов будет существовать?"
 51ede15f1add567.
 745d9ced323b8300.
 745d9ced323b8300.hash       "745d9ced323b8300"
@@ -1496,7 +1496,7 @@ da208f3a9e978c9.
 745d9ced323b8300.locale.zh_HANS "现在每个区块可以制造300，000个细亚币。创始区块高度为0。当高度达到270，000的时候，所有的区块都会有30，000个细亚币。你可以在这个网站（explore.siacoin.com）查到现在有多少细亚币被找到。"
 745d9ced323b8300.locale.zh_HANT "現在每個區塊可以制造300，000個細亞幣。創始區塊高度爲0。當高度達到270，000的時候，所有的區塊都會有30，000個細亞幣。你可以在這個網站（explore.siacoin.com）查到現在有多少細亞幣被找到。"
 745d9ced323b8300.locale.fr  "Le nombre de siacoins créés par chaque bloc est (300.000 - en hauteur). Le bloc genesis a une hauteur de 0. Après la hauteur de 270.000, tous les blocs auront une récompense de 30.000 siacoins. Le nombre actuel de siacoins peut être trouvé à explore.siacoin.com"
-745d9ced323b8300.locale.ru  "Количество сиакойнов, создаваемых с каждым блоком, равняется (300,000 - высота). Высота первичного блока 0. После 270,000-го награда за все блоки будет 30,000 сиакойнов. Текущее количество сиакойнов можно узнать на explore.siacoin.com"
+745d9ced323b8300.locale.ru  "Количество саякойнов, создаваемых с каждым блоком, равняется (300,000 - высота). Высота первичного блока 0. После 270,000-го награда за все блоки будет 30,000 саякойнов. Текущее количество саякойнов можно узнать на explore.siacoin.com"
 745d9ced323b8300.
 63cbbe63adb9667.
 63cbbe63adb9667.hash       "63cbbe63adb9667"
@@ -1541,7 +1541,7 @@ deeba2579a11d1ab.locale.en  "What is the difference between Siacoin and Siafund?
 deeba2579a11d1ab.locale.zh_HANS "细亚币与细亚资金的区别在哪里？"
 deeba2579a11d1ab.locale.zh_HANT "細亞幣與細亞資金的區別在哪裏？"
 deeba2579a11d1ab.locale.fr  "Quelle est la différence entre Siacoin et Siafund?"
-deeba2579a11d1ab.locale.ru  "В чём разница между сиакойнами и сиафондами?"
+deeba2579a11d1ab.locale.ru  "В чём разница между саякойнами и саяфондами?"
 deeba2579a11d1ab.
 c301ec19465bd90d.
 c301ec19465bd90d.hash       "c301ec19465bd90d"
@@ -1556,7 +1556,7 @@ c301ec19465bd90d.locale.en  "The two are different assets. The Siafund grants yo
 c301ec19465bd90d.locale.zh_HANS "这两个是完全不同的资产。细亚资金给你一部分的接管者的收入。如果你买了$200的细亚资金，这意味着在细亚资金存在的时候，你可以把这$200拿回（再加上利息）。如果细亚达到它想占据云端储存的领导地位的目标后，每份细亚资金可以为每位拥有者带来$10,000到$250,000的收益。这个优惠是代表了细亚可能永远也不会变得那么大的风险。细亚币是用来在细亚网络里买储存，它的基本价值从那里来。"
 c301ec19465bd90d.locale.zh_HANT "這兩個是完全不同的資産。細亞資金給你一部分的接管者的收入。如果你買了$200的細亞資金，這意味著在細亞資金存在的時候，你可以把這$200拿回（再加上利息）。如果細亞達到它想占據雲端儲存的領導地位的目標後，每份細亞資金可以爲每位擁有者帶來$10,000到$250,000的收益。這個優惠是代表了細亞可能永遠也不會變得那麽大的風險。細亞幣是用來在細亞網絡裏買儲存，它的基本價值從那裏來。"
 c301ec19465bd90d.locale.fr  "Les deux ont différentes propriétés. Le Siafund vous donne accès à une partie du revenu des hôtes. Si vous achetez un siafund pour 200 $, cela signifie que, sur la durée de vie du Siafund vous vous attendez à gagner 200 $ de retour (plus les intérêts). Si Sia atteint son objectif de domination de stockage en nuage, chaque Siafund gagnera probablement quelque part entre 10.000 $ et 250.000 $ pour leurs propriétaires chacun. La décote représente le risque que Sia ne se développera jamais aussi large que cela. Le Siacoin est utilisé pour acheter le stockage sur le réseau Sia, et sa valeur de base est dérivée de celui-ci."
-c301ec19465bd90d.locale.ru  "Это два разных актива. Сиафонды обеспечивают вам доступ к части дохода хостов. Если вы покупаете сиафонд за $200, это значит, что за время жизни сиафонда вы ожидаете получить назад $200 (плюс проценты). Если Sia достигнет своей цели доминирования на рынке облачного хранения, каждый сиафонд заработает где-то между $10,000 и $250,000 для владельца. Дисконт определяется риском, что Sia никогда не вырастет до таких размеров. Сиакойны используются для покупки места для хранения в сети Sia и их стоимость определяется исходя из этого."
+c301ec19465bd90d.locale.ru  "Это два разных актива. Саяфонды обеспечивают вам доступ к части дохода хостов. Если вы покупаете саяфонд за $200, это значит, что за время жизни саяфонда вы ожидаете получить назад $200 (плюс проценты). Если Sia достигнет своей цели доминирования на рынке облачного хранения, каждый саяфонд заработает где-то между $10,000 и $250,000 для владельца. Дисконт определяется риском, что Sia никогда не вырастет до таких размеров. Саякойны используются для покупки места для хранения в сети Sia и их стоимость определяется исходя из этого."
 c301ec19465bd90d.
 558e860744308811.
 558e860744308811.hash       "558e860744308811"
@@ -1601,7 +1601,7 @@ ce500e2d14ab9e81.locale.en  "The first time you run Sia, you will need to initia
 ce500e2d14ab9e81.locale.zh_HANS "如果你第一次用细亚，你需要启动一个钱包。你可以在应用里点击“制造钱包”。你会得到一个安全的29个字的密码，你需要这个密码来打开钱包。如果你丢失了你的钱包文件，你可以使用这个29字来取回你在钱包里的细亚币。"
 ce500e2d14ab9e81.locale.zh_HANT "如果你第一次用細亞，你需要啓動一個錢包。你可以在應用裏點擊“制造錢包”。你會得到一個安全的29個字的密碼，你需要這個密碼來打開錢包。如果你丟失了你的錢包文件，你可以使用這個29字來取回你在錢包裏的細亞幣。"
 ce500e2d14ab9e81.locale.fr  " La première fois que vous exécutez Sia, vous devez initialiser un portefeuille. Vous pouvez cliquer sur «Créer Portefeuille» dans l'application. Vous recevrez un mot sécurisé de 29 passphrase qui sera nécessaire pour déverrouiller le porte-monnaie à l'avenir. Si vous perdez votre fichier de portefeuille, vous pouvez utiliser le mot 29 phrase pour récupérer les siacoins qui étaient dans le portefeuille."
-ce500e2d14ab9e81.locale.ru  "Когда вы впервые запускаете Sia, вам нужно инициализировать кошелёк. Вы можете кликнуть \"Создать Кошелёк\" в приложении. Вам покажется ключевая фраза из 29 слов, которая в будущем понадобится, чтобы разблокировать кошелёк. Если вы потеряете файл кошелька, вы можете использовать ту же фразу из 29 слов, чтобы восстановить сиакойны, которые были в кошельке."
+ce500e2d14ab9e81.locale.ru  "Когда вы впервые запускаете Sia, вам нужно инициализировать кошелёк. Вы можете кликнуть \"Создать Кошелёк\" в приложении. Вам покажется ключевая фраза из 29 слов, которая в будущем понадобится, чтобы разблокировать кошелёк. Если вы потеряете файл кошелька, вы можете использовать ту же фразу из 29 слов, чтобы восстановить саякойны, которые были в кошельке."
 ce500e2d14ab9e81.
 218d8ec63e6fd31d.
 218d8ec63e6fd31d.hash       "218d8ec63e6fd31d"
@@ -1983,7 +1983,7 @@ d109425242f72e3a.
 91615a5af79904a1.locale.zh_HANS "在网络上有些粗糙的工具来估算有竞争力的储存价格。任何在每GB100个细亚币一个月的价格是不太可能得到储存合同的。"
 91615a5af79904a1.locale.zh_HANT "在網絡上有些粗糙的工具來估算有競爭力的儲存價格。任何在每GB 100個細亞幣一個月的價格是不太可能得到儲存合同的。"
 91615a5af79904a1.locale.fr  "Il y a quelques outils rudimentaires pour estimer le prix concurrentiel du stockage sur le réseau. Tout ce que plus de 100 siacoins par GB par mois est peu probable d'obtenir des contrats de stockage."
-91615a5af79904a1.locale.ru  "Существуют некоторые грубые инструменты для оценки конкурентоспособности цен на хранения в сети. Все цены выше 100 сиакойнов/GB в месяц вряд ли смогут рассчитывать на получение контрактов на хранение."
+91615a5af79904a1.locale.ru  "Существуют некоторые грубые инструменты для оценки конкурентоспособности цен на хранения в сети. Все цены выше 100 саякойнов/GB в месяц вряд ли смогут рассчитывать на получение контрактов на хранение."
 91615a5af79904a1.
 f78b8801e88c189e.
 f78b8801e88c189e.hash       "f78b8801e88c189e"
@@ -2448,7 +2448,7 @@ ad4feeac11aeb543.locale.en  "Get Siacoin — Sia"
 ad4feeac11aeb543.locale.zh_HANS "取得细亚币 - 细亚"
 ad4feeac11aeb543.locale.zh_HANT "取得細亞幣 - 細亞"
 ad4feeac11aeb543.locale.fr  "Obtenez Siacoin - Sia"
-ad4feeac11aeb543.locale.ru  "Получить Сиакойны — Sia"
+ad4feeac11aeb543.locale.ru  "Получить саякойны — Sia"
 ad4feeac11aeb543.
 25d8a048fe3ad0a8.
 25d8a048fe3ad0a8.hash       "25d8a048fe3ad0a8"
@@ -2478,7 +2478,7 @@ ad4feeac11aeb543.
 43939a166bade736.locale.zh_HANS "买卖细亚币"
 43939a166bade736.locale.zh_HANT "買賣細亞幣"
 43939a166bade736.locale.fr  "ACHETEZ ET ÉCHANGEZ SIACOIN"
-43939a166bade736.locale.ru  "КУПИТЬ И ТОРГОВАТЬ СИАКОЙНАМИ"
+43939a166bade736.locale.ru  "КУПИТЬ И ТОРГОВАТЬ САЯКОЙНАМИ"
 43939a166bade736.
 a2a87ac385142492.
 a2a87ac385142492.hash       "a2a87ac385142492"
@@ -2523,7 +2523,7 @@ d34785e93de2d406.
 707f340342a60a28.locale.zh_HANS "取得细亚币"
 707f340342a60a28.locale.zh_HANT "取得細亞幣"
 707f340342a60a28.locale.fr  "Obtenez des Siacoin"
-707f340342a60a28.locale.ru  "Получить Сиакойны"
+707f340342a60a28.locale.ru  "Получить саякойны"
 707f340342a60a28.
 aae83ccc6460667.
 aae83ccc6460667.hash       "aae83ccc6460667"
@@ -2658,7 +2658,7 @@ d478f9e167541322.locale.en  "I want to farm my storage space for SiaCoin"
 d478f9e167541322.locale.zh_HANS "我想包租我的储存空间来换取细亚币"
 d478f9e167541322.locale.zh_HANT "我想包租我的儲存空間來換取細亞幣"
 d478f9e167541322.locale.fr  " Je veux cultiver mon espace de stockage pour des SiaCoins"
-d478f9e167541322.locale.ru  "Я хочу сдавать в аренду мое пространство за Сиакойны"
+d478f9e167541322.locale.ru  "Я хочу сдавать в аренду мое пространство за саякойны"
 d478f9e167541322.
 7c6b83aab9758a3d.
 7c6b83aab9758a3d.hash       "7c6b83aab9758a3d"
@@ -2689,7 +2689,7 @@ f733cfa56f9a88eb.locale.en  "I want to mine SiaCoin and secure the blockchain"
 f733cfa56f9a88eb.locale.zh_HANS "我想挖细亚币和保护区块链"
 f733cfa56f9a88eb.locale.zh_HANT "我想挖细亚币和保护区块链"
 f733cfa56f9a88eb.locale.fr  "Je veux miner des SiaCoins et sécuriser le blockchain"
-f733cfa56f9a88eb.locale.ru  "Я хочу заниматься майнингом Siacoin и обеспечивать безопасность блокчейна"
+f733cfa56f9a88eb.locale.ru  "Я хочу заниматься майнингом саякойнов и обеспечивать безопасность блокчейна"
 f733cfa56f9a88eb.
 9ba20404e375f75f.
 9ba20404e375f75f.hash       "9ba20404e375f75f"
@@ -2735,7 +2735,7 @@ f733cfa56f9a88eb.
 4d62580bdd5e29cb.locale.zh_HANS "储存细亚币"
 4d62580bdd5e29cb.locale.zh_HANT "儲存細亞幣"
 4d62580bdd5e29cb.locale.fr  "Emmagasiner mes Siacoins:"
-4d62580bdd5e29cb.locale.ru  "Хранение Siacoin"
+4d62580bdd5e29cb.locale.ru  "Хранение саякойнов"
 4d62580bdd5e29cb.
 1807bfbeb5d534ef.
 1807bfbeb5d534ef.hash       "1807bfbeb5d534ef"
@@ -2781,7 +2781,7 @@ ab0ce566d53743a.
 70ca57acbd2cc33.locale.zh_HANS "拿到<a href=\"/get-siacoin\">细亚币</a>"
 70ca57acbd2cc33.locale.zh_HANT "拿到<a href=\"/get-siacoin\">細亞幣</a>"
 70ca57acbd2cc33.locale.fr  "Obtenez <a href=\"/get-siacoin\">SiaCoin</a>"
-70ca57acbd2cc33.locale.ru  "Получайте <a href=\"/get-siacoin\">Сиакойны</a>"
+70ca57acbd2cc33.locale.ru  "Получайте <a href=\"/get-siacoin\">саякойны</a>"
 70ca57acbd2cc33.
 1ef2f2ec35242d3b.
 1ef2f2ec35242d3b.hash       "1ef2f2ec35242d3b"
@@ -2796,7 +2796,7 @@ ab0ce566d53743a.
 1ef2f2ec35242d3b.locale.zh_HANS "细亚币矿场"
 1ef2f2ec35242d3b.locale.zh_HANT "細亞幣礦場"
 1ef2f2ec35242d3b.locale.fr  "Agriculturez des Siacoins"
-1ef2f2ec35242d3b.locale.ru  "Для хостинга за Сиакойны:"
+1ef2f2ec35242d3b.locale.ru  "Для хостинга за саякойны:"
 1ef2f2ec35242d3b.
 fe0fad6ffd2a72da.
 fe0fad6ffd2a72da.hash       "fe0fad6ffd2a72da"
@@ -2826,7 +2826,7 @@ f90ddfaad84d3407.locale.en  "Get <a href=\"http://sia.tech/get-siacoin\">SiaCoin
 f90ddfaad84d3407.locale.zh_HANS "得到<a href=\"http://sia.tech/get-siacoin\">细亚币</a> 用文件合同"
 f90ddfaad84d3407.locale.zh_HANT "得到<a href=\"http://sia.tech/get-siacoin\">細亞幣</a> 用文件合同"
 f90ddfaad84d3407.locale.fr  " Obtenez  <a href=\"http://sia.tech/get-siacoin\">SiaCoin</a> avec des contrats de fichiers."
-f90ddfaad84d3407.locale.ru  "Получить <a href=\"http://sia.tech/get-siacoin\">Сиакойн</a>с файловыми контрактами."
+f90ddfaad84d3407.locale.ru  "Получить <a href=\"http://sia.tech/get-siacoin\">саякойн</a>с файловыми контрактами."
 f90ddfaad84d3407.
 58a2f6db7304a206.
 58a2f6db7304a206.hash       "58a2f6db7304a206"
@@ -2841,7 +2841,7 @@ f90ddfaad84d3407.
 58a2f6db7304a206.locale.zh_HANS "挖细亚币"
 58a2f6db7304a206.locale.zh_HANT "挖細亞幣"
 58a2f6db7304a206.locale.fr  "Pour Miner des Siacoin"
-58a2f6db7304a206.locale.ru  "Майнинг Siacoin"
+58a2f6db7304a206.locale.ru  "Майнинг саякойнов"
 58a2f6db7304a206.
 7101be01683cd06.
 7101be01683cd06.hash       "7101be01683cd06"
@@ -2886,7 +2886,7 @@ f90ddfaad84d3407.
 4623b45e96b03661.locale.zh_HANS "收取细亚币"
 4623b45e96b03661.locale.zh_HANT "收取細亞幣"
 4623b45e96b03661.locale.fr  "Recevez des SiaCoin"
-4623b45e96b03661.locale.ru  "Получайте SiaCoin"
+4623b45e96b03661.locale.ru  "Получайте саякойны"
 4623b45e96b03661.
 5702a7b530de2c4.
 5702a7b530de2c4.hash       "5702a7b530de2c4"
@@ -2901,7 +2901,7 @@ f90ddfaad84d3407.
 5702a7b530de2c4.locale.zh_HANS "开发细亚币"
 5702a7b530de2c4.locale.zh_HANT "開發細亞幣"
 5702a7b530de2c4.locale.fr  "Pour Développer Siacoin:"
-5702a7b530de2c4.locale.ru  "Для Разработчиков Siacoin:"
+5702a7b530de2c4.locale.ru  "Разработать саякойны:"
 5702a7b530de2c4.
 eeb9a34af484fd9.
 eeb9a34af484fd9.hash       "eeb9a34af484fd9"
@@ -3081,7 +3081,7 @@ a0962a47cafe0e94.
 7aed887a19cce7f5.locale.zh_HANS "细亚是个共享的经济体。你可以根据你的角色和要求来取得，使用，和交易细亚币。你可以是个用户，耕种者，矿工和节点管理者。"
 7aed887a19cce7f5.locale.zh_HANT "細亞是個共享的經濟體。你可以根據你的角色和要求來取得，使用，和交易細亞幣。你可以是個用戶，耕種者，礦工和節點管理者。"
 7aed887a19cce7f5.locale.fr  "Sia est une économie partagée. Acquérir, utiliser et échanger des SiaCoins selon votre rôle et vos exigences. Participer en tant qu'utilisateur, agriculteur, mineur, et opérateur de noeud."
-7aed887a19cce7f5.locale.ru  "Sia - это экономика совместного потребления. Покупайте, используйте и торгуйте Сиакойнами в зависимости от вашей роли и необходимых задач. Участвуйте в качестве пользователя, хостера, майнера или оператора узла."
+7aed887a19cce7f5.locale.ru  "Sia - это экономика совместного потребления. Покупайте, используйте и торгуйте саякойнами в зависимости от вашей роли и необходимых задач. Участвуйте в качестве пользователя, хостера, майнера или оператора узла."
 7aed887a19cce7f5.
 a70a5b6e604a29e.
 a70a5b6e604a29e.hash       "a70a5b6e604a29e"
@@ -3349,7 +3349,7 @@ a02188c48f9d4a75.locale.en  "Total Siacoins"
 a02188c48f9d4a75.locale.zh_HANS "细亚币总数"
 a02188c48f9d4a75.locale.zh_HANT "細亞幣總數"
 a02188c48f9d4a75.locale.fr  "Nombre total de Siacoins"
-a02188c48f9d4a75.locale.ru  "Всего Сиакойнов"
+a02188c48f9d4a75.locale.ru  "Всего саякойнов"
 a02188c48f9d4a75.
 c856abb17cd9f35a.
 c856abb17cd9f35a.hash       "c856abb17cd9f35a"
@@ -3506,7 +3506,7 @@ f86cfb0329e99928.locale.en  "GET SIACOIN"
 f86cfb0329e99928.locale.zh_HANS "取得细亚币"
 f86cfb0329e99928.locale.zh_HANT "取得細亞幣"
 f86cfb0329e99928.locale.fr  "OBTENEZ DES SIACOINS"
-f86cfb0329e99928.locale.ru  "ПОЛУЧИТЬ СИАКОЙНЫ"
+f86cfb0329e99928.locale.ru  "ПОЛУЧИТЬ САЯКОЙНЫ"
 f86cfb0329e99928.
 12cc94f175e92c20.
 12cc94f175e92c20.hash       "12cc94f175e92c20"
@@ -3772,5 +3772,5 @@ fae702657e46e0da.locale.en  "Sia uses a cryptocurrency, Siacoin, to enable decen
 fae702657e46e0da.locale.zh_HANS "细亚使用一个加密数字货币，细亚币，来实行去中心化支付。细亚币可以被想象成比特币的一个延伸然后再加上文件合同的支持。像比特币一样，细亚币也使用区块链，然后用工作量证明来驱动挖矿。但是，细亚币和比特币不是竞争对手。比特币是个普遍型的货币，细亚币只存在细亚网络中。"
 fae702657e46e0da.locale.zh_HANT "細亞使用一個加密數字貨幣，細亞幣，來實行去中心化支付。細亞幣可以被想象成比特幣的一個延伸然後再加上文件合同的支持。像比特幣一樣，細亞幣也使用區塊鏈，然後用工作量證明來驅動挖礦。但是，細亞幣和比特幣不是競爭對手。比特幣是個普遍型的貨幣，細亞幣只存在細亞網絡中。"
 fae702657e46e0da.locale.fr  "Sia utilise un crypto-monnaie, Siacoin, pour permettre les paiements décentralisés. Siacoin peut être considéré comme une extension de Bitcoin qui ajoute le support pour les contrats de fichiers. Comme Bitcoin, Siacoin utilise un blockchain, et est alimenté par l'exploitation minière \"proof-of-work\". Cependant, Siacoin et Bitcoin ne sont pas en concurrence directe. Bitcoin est une monnaie à usage général, tandis que Siacoin existe uniquement pour mettre en marche le réseau Sia."
-fae702657e46e0da.locale.ru  "Sia использует криптовалюту Сиакойн для осуществления децентрализованных платежей. Сиакойн можно рассматривать как расширение Биткойн, которое поддерживает файловые контракты. Как и Биткойн, Сиакойн использует блокчейн, а также концепт \"proof-of-work\" при майнинге. В то же время Сиакойн и Биткойн не являются прямыми конкурентами. Биткойн является валютой общего назначения, в то время как Сиакойн существует только для поддержания работы сети Sia."
+fae702657e46e0da.locale.ru  "Sia использует криптовалюту саякойн для осуществления децентрализованных платежей. Саякойн можно рассматривать как расширение Биткойн, которое поддерживает файловые контракты. Как и Биткойн, Саякойн использует блокчейн, а также концепт \"proof-of-work\" при майнинге. В то же время Саякойн и Биткойн не являются прямыми конкурентами. Биткойн является валютой общего назначения, в то время как Саякойн существует только для поддержания работы сети Sia."
 fae702657e46e0da.
