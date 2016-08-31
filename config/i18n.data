@@ -947,21 +947,6 @@ b6c98d91e5e68b22.
 6c616bb551d44fbb.locale.fr  "Sécuriser le réseau"
 6c616bb551d44fbb.locale.ru  "Поддерживайте безопасность сети"
 6c616bb551d44fbb.
-3c3ba90ed12e69ba.
-3c3ba90ed12e69ba.hash       "3c3ba90ed12e69ba"
-3c3ba90ed12e69ba.sha1       "4b38aa54e1266b86b9e9a86b09c25d0dab65ce4e"
-3c3ba90ed12e69ba.category   "basic"
-3c3ba90ed12e69ba.original   "en"
-3c3ba90ed12e69ba.multiline  false
-3c3ba90ed12e69ba.orphan     false
-3c3ba90ed12e69ba.ts         1464737726852
-3c3ba90ed12e69ba.file       "views/apps.ejs"
-3c3ba90ed12e69ba.locale.en  "Download v0.6.0-beta"
-3c3ba90ed12e69ba.locale.zh_HANS "下载 v0.6.0-beta"
-3c3ba90ed12e69ba.locale.zh_HANT "下載 v0.6.0-beta"
-3c3ba90ed12e69ba.locale.fr  "Télécharger v0.6.0-beta"
-3c3ba90ed12e69ba.locale.ru  "Скачать v0.6.0-beta"
-3c3ba90ed12e69ba.
 9160346367af47d1.
 9160346367af47d1.hash       "9160346367af47d1"
 9160346367af47d1.sha1       "5f38b73a5025ee05bcb756683385ef97b8f0b72a"
@@ -993,22 +978,6 @@ b6c98d91e5e68b22.
 27c84b1fc58c801e.locale.fr  "Fixer le blockchain et recevez des Siacoin"
 27c84b1fc58c801e.locale.ru  "Обеспечивайте безопасность блокчейна и получайте саякойны"
 27c84b1fc58c801e.
-b96129b34a4aef16.
-b96129b34a4aef16.hash       "b96129b34a4aef16"
-b96129b34a4aef16.sha1       "0a25de0d6ce73a623020c086b94463ce8b13f098"
-b96129b34a4aef16.category   "basic"
-b96129b34a4aef16.original   "en"
-b96129b34a4aef16.multiline  false
-b96129b34a4aef16.orphan     false
-b96129b34a4aef16.ts         1464737726852
-b96129b34a4aef16.file       "views/apps.ejs"
-b96129b34a4aef16.locale.en  "Download v1.0.5"
-b96129b34a4aef16.locale.zh_HANS "下载v1.0.5"
-b96129b34a4aef16.locale.zh_HANT "下載v1.0.5"
-b96129b34a4aef16.locale.fr  "Télécharger v1.0.5"
-b96129b34a4aef16.locale.no  "Last ned v1.0.5"
-b96129b34a4aef16.locale.ru  "Скачать v1.0.5"
-b96129b34a4aef16.
 3c72b88f49f1e55.
 3c72b88f49f1e55.hash       "3c72b88f49f1e55"
 3c72b88f49f1e55.sha1       "d833f91590ac79f822a021ae65eeca80859d9c9b"
@@ -2390,21 +2359,6 @@ a23059c88868f0cf.locale.zh_HANT "我可以在細亞上和其他人分享文件�
 a23059c88868f0cf.locale.fr  "Puis-je partager des fichiers avec d'autres sur Sia?"
 a23059c88868f0cf.locale.ru  "Могу ли я делиться файлами с другими в системе Sia? "
 a23059c88868f0cf.
-219b4dc4fc434686.
-219b4dc4fc434686.hash       "219b4dc4fc434686"
-219b4dc4fc434686.sha1       "1ad1bf78eda9c87893d4d1f966422d1ca6cd6f87"
-219b4dc4fc434686.category   "basic"
-219b4dc4fc434686.original   "en"
-219b4dc4fc434686.multiline  false
-219b4dc4fc434686.orphan     false
-219b4dc4fc434686.ts         1464737726861
-219b4dc4fc434686.file       "views/faq.ejs"
-219b4dc4fc434686.locale.en  "Yes. Files can be shared publically and privately. All files uploaded to the Sia network are erasure coded and then encrypted. Someone will only be able to decrypt and fetch the files if they have metadata about the files. This metadata is stored in something called a ‘.sia’ or a ‘siafile’. By sharing the siafile associated with a file that’s been uploaded to Sia, you give someone the ability to download that file. To share files privately, you can give the siafiles to people you trust. They will be able to download the file, and as long as they don’t share it, nobody else will. You can share files publicly by putting the associated siafiles in a public place. (One such place is https://siafiles.com)"
-219b4dc4fc434686.locale.zh_HANS "是的。文件可以被公开地和私下分享。所有的文件上载到细亚网络上都被加码抹去然后再被加密。只有有元数据的人才可以解密和取出文件。这个元数据贮存在那些叫做 ‘.sia'或是'siafile'里。当你分享了与上载到Sia里文件有关的细亚文件的时候，你就给他下载的权利。如果私下分享的话，你可以把这些细亚文件给那些你相信的人。他们可以下载文件，只要他们不分享它，没人可以看到。你还可以公开地分享这些文件如果你把细亚文件放在一个公共的地方。（比如像https://siafiles.com）。"
-219b4dc4fc434686.locale.zh_HANT "是的。文件可以被公開地和私下分享。所有的文件上載到細亞網絡上都被加碼抹去然後再被加密。只有有元數據的人才可以解密和取出文件。這個元數據貯存在那些叫做 ‘.sia'或是'siafile'裏。當你分享了與上載到Sia裏文件有關的細亞文件的時候，你就給他下載的權利。如果私下分享的話，你可以把這些細亞文件給那些你相信的人。他們可以下載文件，只要他們不分享它，沒人可以看到。你還可以公開地分享這些文件如果你把細亞文件放在一個公共的地方。（比如像https://siafiles.com）。"
-219b4dc4fc434686.locale.fr  "Oui. Les fichiers peuvent être partagés publiquement et en privé. Tous les fichiers téléchargés sur le réseau Sia sont codés avec l'effacement codé puis crypté. Une personne sera en mesure de décrypter et récupérer les fichiers si elle a pas des métadonnées sur les fichiers. Ces métadonnées sont stockées dans ce qu'on appelle un «.sia» ou un «siafile». En partageant le siafile associé à un fichier qui a été téléchargé sur Sia, vous donnez à quelqu'un la possibilité de télécharger ce fichier. Pour partager des fichiers privés, vous pouvez donner les siafiles à des personnes de confiance. Ils seront en mesure de télécharger le fichier, et aussi longtemps qu'ils ne le partagent pas, personne d'autre ne le pourra. Vous pouvez partager des fichiers publics en mettant les siafiles associés dans un lieu public. (Un tel endroit est https://siafiles.com)"
-219b4dc4fc434686.locale.ru  "Да. Общий доступ к файлам может быть предоставлен публично или приватно. Все загруженные в сеть Sia файлы преобразуются кодами, исправляющими многократные ошибки и шифруются. Файлы можно расшифровать и получить только имея метаданные. Эти метаданные хранятся в файле с расширением \"sia\" или \"сиафайле\". Предоставляя доступ к сиафайлу, соответствующему файлу, который был загружен в сеть, вы даёте кому-либо возможность скачать этот файл. Чтобы поделиться файлом приватно, вы можете дать файл людям, которым вы доверяете. Они смогут скачать файл и если они его никому не передадут, то больше никто файл скачать не сможет. Вы также можете предоставить неограниченный общий доступ к файлам, поделившись сиафайлом в открытом источнике. Одно из таких мест — https://siafiles.com"
-219b4dc4fc434686.
 6571741feacb8f60.
 6571741feacb8f60.hash       "6571741feacb8f60"
 6571741feacb8f60.sha1       "d790b402d79ac1a723c790313bcd679999474630"
@@ -2798,36 +2752,6 @@ ab0ce566d53743a.
 1ef2f2ec35242d3b.locale.fr  "Agriculturez des Siacoins"
 1ef2f2ec35242d3b.locale.ru  "Для хостинга за саякойны:"
 1ef2f2ec35242d3b.
-fe0fad6ffd2a72da.
-fe0fad6ffd2a72da.hash       "fe0fad6ffd2a72da"
-fe0fad6ffd2a72da.sha1       "f9cf7682e55ec189634a3ac7fb1240bb221e6605"
-fe0fad6ffd2a72da.category   "basic"
-fe0fad6ffd2a72da.original   "en"
-fe0fad6ffd2a72da.multiline  false
-fe0fad6ffd2a72da.orphan     false
-fe0fad6ffd2a72da.ts         1464737726864
-fe0fad6ffd2a72da.file       "views/get-started.ejs"
-fe0fad6ffd2a72da.locale.en  "Create a storage offer."
-fe0fad6ffd2a72da.locale.zh_HANS "制造一个储存的邀请"
-fe0fad6ffd2a72da.locale.zh_HANT "制造一個儲存的邀請"
-fe0fad6ffd2a72da.locale.fr  "Créez une offre de stockage"
-fe0fad6ffd2a72da.locale.ru  "Предложить оферту для хранения данных."
-fe0fad6ffd2a72da.
-f90ddfaad84d3407.
-f90ddfaad84d3407.hash       "f90ddfaad84d3407"
-f90ddfaad84d3407.sha1       "62a59d80f614c13f4e285078ec409ff1108421dc"
-f90ddfaad84d3407.category   "basic"
-f90ddfaad84d3407.original   "en"
-f90ddfaad84d3407.multiline  false
-f90ddfaad84d3407.orphan     false
-f90ddfaad84d3407.ts         1464737726865
-f90ddfaad84d3407.file       "views/get-started.ejs"
-f90ddfaad84d3407.locale.en  "Get <a href=\"http://sia.tech/get-siacoin\">SiaCoin</a> with file contracts."
-f90ddfaad84d3407.locale.zh_HANS "得到<a href=\"http://sia.tech/get-siacoin\">细亚币</a> 用文件合同"
-f90ddfaad84d3407.locale.zh_HANT "得到<a href=\"http://sia.tech/get-siacoin\">細亞幣</a> 用文件合同"
-f90ddfaad84d3407.locale.fr  " Obtenez  <a href=\"http://sia.tech/get-siacoin\">SiaCoin</a> avec des contrats de fichiers."
-f90ddfaad84d3407.locale.ru  "Получить <a href=\"http://sia.tech/get-siacoin\">саякойн</a>с файловыми контрактами."
-f90ddfaad84d3407.
 58a2f6db7304a206.
 58a2f6db7304a206.hash       "58a2f6db7304a206"
 58a2f6db7304a206.sha1       "b147f3f2aa2c0741dc68c035fe3566d286abaa27"
@@ -2858,21 +2782,6 @@ f90ddfaad84d3407.
 7101be01683cd06.locale.fr  "Télécharger <a href=\"/apps\">Sia Miner</a>"
 7101be01683cd06.locale.ru  "Скачайте <a href=\"/apps\">Sia майнер</a>"
 7101be01683cd06.
-678ec44a6578ddc2.
-678ec44a6578ddc2.hash       "678ec44a6578ddc2"
-678ec44a6578ddc2.sha1       "c2cb7d4be35e55cbd90088b738adf66143722970"
-678ec44a6578ddc2.category   "basic"
-678ec44a6578ddc2.original   "en"
-678ec44a6578ddc2.multiline  false
-678ec44a6578ddc2.orphan     false
-678ec44a6578ddc2.ts         1464737726865
-678ec44a6578ddc2.file       "views/get-started.ejs"
-678ec44a6578ddc2.locale.en  "Help secure the network."
-678ec44a6578ddc2.locale.zh_HANS "帮助我们来保护网络"
-678ec44a6578ddc2.locale.zh_HANT "帮助我们来保护网络"
-678ec44a6578ddc2.locale.fr  "Sécuriser le réseau."
-678ec44a6578ddc2.locale.ru  "Способствуйте безопасности сети "
-678ec44a6578ddc2.
 4623b45e96b03661.
 4623b45e96b03661.hash       "4623b45e96b03661"
 4623b45e96b03661.sha1       "54bf8ba79c36501b5d69026efaeac72d9ceff4c2"
@@ -2918,21 +2827,6 @@ eeb9a34af484fd9.locale.zh_HANT "加入我們 <a href=\"https://github.com/Nebulo
 eeb9a34af484fd9.locale.fr  "Joignez-vous à notre <a href=\"https://github.com/NebulousLabs/Sia\"> GitHub </a>."
 eeb9a34af484fd9.locale.ru  "Присоединяйтесь к нашему <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>."
 eeb9a34af484fd9.
-3eb54afea9d1fb4.
-3eb54afea9d1fb4.hash       "3eb54afea9d1fb4"
-3eb54afea9d1fb4.sha1       "503a41ed958d832100b8c2e0ba17ae1357bf162b"
-3eb54afea9d1fb4.category   "basic"
-3eb54afea9d1fb4.original   "en"
-3eb54afea9d1fb4.multiline  false
-3eb54afea9d1fb4.orphan     false
-3eb54afea9d1fb4.ts         1464737726865
-3eb54afea9d1fb4.file       "views/get-started.ejs"
-3eb54afea9d1fb4.locale.en  "Consult our <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">documentation</a>."
-3eb54afea9d1fb4.locale.zh_HANS "咨询我们在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文档资料</a>"
-3eb54afea9d1fb4.locale.zh_HANT "咨詢我們在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文檔資料</a>"
-3eb54afea9d1fb4.locale.fr  "Consultez notre <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\"> documentation </a>."
-3eb54afea9d1fb4.locale.ru  "Ознакомьтесь с нашей <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">документацией</a>"
-3eb54afea9d1fb4.
 3e77e69e28fd9932.
 3e77e69e28fd9932.hash       "3e77e69e28fd9932"
 3e77e69e28fd9932.sha1       "dd583b95e5ea2059f5fc77ee0bf44cc3b3f2d405"
@@ -3008,21 +2902,6 @@ a0962a47cafe0e94.locale.zh_HANT "現在下載"
 a0962a47cafe0e94.locale.fr  "Télécharger maintenant"
 a0962a47cafe0e94.locale.ru  "Скачать сейчас "
 a0962a47cafe0e94.
-3756598debb980b.
-3756598debb980b.hash       "3756598debb980b"
-3756598debb980b.sha1       "f84729f69babdf8f3a798347c10343173118f7a9"
-3756598debb980b.category   "basic"
-3756598debb980b.original   "en"
-3756598debb980b.multiline  false
-3756598debb980b.orphan     false
-3756598debb980b.ts         1464737726866
-3756598debb980b.file       "views/index.ejs"
-3756598debb980b.locale.en  "Need help to get started?"
-3756598debb980b.locale.zh_HANS "你需要帮助来启动吗？"
-3756598debb980b.locale.zh_HANT "你需要幫助來啓動嗎？"
-3756598debb980b.locale.fr  "Besoin d'aide pour commencer?"
-3756598debb980b.locale.ru  "Нужна помощь, чтобы начать? "
-3756598debb980b.
 4aad94963ba31562.
 4aad94963ba31562.hash       "4aad94963ba31562"
 4aad94963ba31562.sha1       "8b6bd13ad5a17270d733311f5f7b311fc6f8c868"
@@ -3050,7 +2929,7 @@ a0962a47cafe0e94.
 2aae20f8b275eca4.locale.en  "AND BACK INTO YOUR HANDS"
 2aae20f8b275eca4.locale.zh_HANS "回到你的手上"
 2aae20f8b275eca4.locale.zh_HANT "回到你的手上"
-2aae20f8b275eca4.locale.fr  "ET LE RETOUNE DANS VOS MAINS"
+2aae20f8b275eca4.locale.fr  "ET LE RETOURNE DANS VOS MAINS"
 2aae20f8b275eca4.locale.ru  "И ВОЗВРАЩАЕТ ДАННЫЕ В ВАШИ РУКИ"
 2aae20f8b275eca4.
 27a288797934b1aa.
@@ -3598,7 +3477,7 @@ dad8bad1af1d5a7d.
 99929557928dfc6e.category   "basic"
 99929557928dfc6e.original   "en"
 99929557928dfc6e.multiline  false
-99929557928dfc6e.orphan     false
+99929557928dfc6e.orphan     true
 99929557928dfc6e.ts         1464737728643
 99929557928dfc6e.locale.en  "A Community"
 99929557928dfc6e.locale.zh_HANS "社区"
@@ -3774,3 +3653,133 @@ fae702657e46e0da.locale.zh_HANT "細亞使用一個加密數字貨幣，細亞�
 fae702657e46e0da.locale.fr  "Sia utilise un crypto-monnaie, Siacoin, pour permettre les paiements décentralisés. Siacoin peut être considéré comme une extension de Bitcoin qui ajoute le support pour les contrats de fichiers. Comme Bitcoin, Siacoin utilise un blockchain, et est alimenté par l'exploitation minière \"proof-of-work\". Cependant, Siacoin et Bitcoin ne sont pas en concurrence directe. Bitcoin est une monnaie à usage général, tandis que Siacoin existe uniquement pour mettre en marche le réseau Sia."
 fae702657e46e0da.locale.ru  "Sia использует криптовалюту саякойн для осуществления децентрализованных платежей. Саякойн можно рассматривать как расширение Биткойн, которое поддерживает файловые контракты. Как и Биткойн, Саякойн использует блокчейн, а также концепт \"proof-of-work\" при майнинге. В то же время Саякойн и Биткойн не являются прямыми конкурентами. Биткойн является валютой общего назначения, в то время как Саякойн существует только для поддержания работы сети Sia."
 fae702657e46e0da.
+e257bca23abf595.
+e257bca23abf595.hash       "e257bca23abf595"
+e257bca23abf595.sha1       "133d443f139f7cb2c41032b03c862b879b39cf40"
+e257bca23abf595.category   "basic"
+e257bca23abf595.original   "en"
+e257bca23abf595.multiline  false
+e257bca23abf595.orphan     false
+e257bca23abf595.ts         1466533845908
+e257bca23abf595.file       "views/index.ejs"
+e257bca23abf595.locale.en  "Need help getting started?"
+e257bca23abf595.locale.zh_HANS "你需要帮助来启动吗？"
+e257bca23abf595.locale.zh_HANT "你需要幫助來啓動嗎？"
+e257bca23abf595.locale.fr  "Besoin d'aide pour commencer?"
+e257bca23abf595.locale.ru  "Нужна помощь, чтобы начать? "
+e257bca23abf595.
+c2c9c5235d9c1565.
+c2c9c5235d9c1565.hash       "c2c9c5235d9c1565"
+c2c9c5235d9c1565.sha1       "c35c35ef26a5a25eb71d373deeae3b4c34a06288"
+c2c9c5235d9c1565.category   "basic"
+c2c9c5235d9c1565.original   "en"
+c2c9c5235d9c1565.multiline  false
+c2c9c5235d9c1565.orphan     false
+c2c9c5235d9c1565.ts         1466577698438
+c2c9c5235d9c1565.locale.en  "BitcoinTalk"
+c2c9c5235d9c1565.
+5a574fe17e378791.
+5a574fe17e378791.hash       "5a574fe17e378791"
+5a574fe17e378791.sha1       "16c49fa62239a4eea9915dd287be9fbc3ae01d61"
+5a574fe17e378791.category   "basic"
+5a574fe17e378791.original   "en"
+5a574fe17e378791.multiline  false
+5a574fe17e378791.orphan     false
+5a574fe17e378791.ts         1467106535053
+5a574fe17e378791.file       "views/get-started.ejs"
+5a574fe17e378791.locale.en  "Create a storage offer"
+5a574fe17e378791.locale.fr  "Créez une offre de stockage"
+5a574fe17e378791.locale.ru  "Предложить оферту для хранения данных"
+5a574fe17e378791.locale.zh_HANS "制造一个储存的邀请"
+5a574fe17e378791.locale.zh_HANT "制造一個儲存的邀請"
+5a574fe17e378791.
+4e9785c6e7eaaeef.
+4e9785c6e7eaaeef.hash       "4e9785c6e7eaaeef"
+4e9785c6e7eaaeef.sha1       "0f0b485e48c5176e0cb530f32caf8ff3993a8545"
+4e9785c6e7eaaeef.category   "basic"
+4e9785c6e7eaaeef.original   "en"
+4e9785c6e7eaaeef.multiline  false
+4e9785c6e7eaaeef.orphan     false
+4e9785c6e7eaaeef.ts         1467106535054
+4e9785c6e7eaaeef.file       "views/get-started.ejs"
+4e9785c6e7eaaeef.locale.en  "Get SiaCoin with file contracts"
+4e9785c6e7eaaeef.locale.fr  "Obtenez SiaCoin avec des contrats de fichiers"
+4e9785c6e7eaaeef.locale.ru  "Получить Сиакойнс файловыми контрактами"
+4e9785c6e7eaaeef.locale.zh_HANS "得到细亚币用文件合同"
+4e9785c6e7eaaeef.locale.zh_HANT "得到細亞幣用文件合同"
+4e9785c6e7eaaeef.
+42512384a2030981.
+42512384a2030981.hash       "42512384a2030981"
+42512384a2030981.sha1       "fd40d6248484681c3b4716163c87956472edef76"
+42512384a2030981.category   "basic"
+42512384a2030981.original   "en"
+42512384a2030981.multiline  false
+42512384a2030981.orphan     false
+42512384a2030981.ts         1467106535054
+42512384a2030981.file       "views/get-started.ejs"
+42512384a2030981.locale.en  "Help secure the network"
+42512384a2030981.locale.fr  "Sécuriser le réseau"
+42512384a2030981.locale.ru  "Способствуйте безопасности сети "
+42512384a2030981.locale.zh_HANS "帮助我们来保护网络"
+42512384a2030981.locale.zh_HANT "帮助我们来保护网络"
+42512384a2030981.
+4e3d0984f3ac1f62.
+4e3d0984f3ac1f62.hash       "4e3d0984f3ac1f62"
+4e3d0984f3ac1f62.sha1       "a4a2d7a8d418000dc40aeac21a51229aaaa4386a"
+4e3d0984f3ac1f62.category   "basic"
+4e3d0984f3ac1f62.original   "en"
+4e3d0984f3ac1f62.multiline  false
+4e3d0984f3ac1f62.orphan     false
+4e3d0984f3ac1f62.ts         1467106535054
+4e3d0984f3ac1f62.file       "views/get-started.ejs"
+4e3d0984f3ac1f62.locale.en  "Join our <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.locale.fr  "Joignez-vous à notre <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.locale.ru  "Присоединяйтесь к нашему <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.locale.zh_HANS "加入我们 <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.locale.zh_HANT "加入我們 <a href=\"https://github.com/NebulousLabs/Sia\">GitHub</a>"
+4e3d0984f3ac1f62.
+7e17bbb0ea0a25bf.
+7e17bbb0ea0a25bf.hash       "7e17bbb0ea0a25bf"
+7e17bbb0ea0a25bf.sha1       "41a63b550fb59412f3dcbd9f153c64b07a5d4dff"
+7e17bbb0ea0a25bf.category   "basic"
+7e17bbb0ea0a25bf.original   "en"
+7e17bbb0ea0a25bf.multiline  false
+7e17bbb0ea0a25bf.orphan     false
+7e17bbb0ea0a25bf.ts         1467106535054
+7e17bbb0ea0a25bf.file       "views/get-started.ejs"
+7e17bbb0ea0a25bf.locale.en  "Consult our <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">documentation</a>"
+7e17bbb0ea0a25bf.locale.fr  "Consultez notre <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">documentation</a>"
+7e17bbb0ea0a25bf.locale.ru  "Ознакомьтесь с нашей <a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">документацией</a>"
+7e17bbb0ea0a25bf.locale.zh_HANS "咨询我们在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文档资料</a>"
+7e17bbb0ea0a25bf.locale.zh_HANT "咨詢我們在<a href=\"https://github.com/NebulousLabs/Sia/tree/master/doc\">的文檔資料</a>"
+7e17bbb0ea0a25bf.
+2821e83185bd5029.
+2821e83185bd5029.hash       "2821e83185bd5029"
+2821e83185bd5029.sha1       "a479c9c34e878d07b4d67a73a48f432ad7dc53c8"
+2821e83185bd5029.category   "basic"
+2821e83185bd5029.original   "en"
+2821e83185bd5029.multiline  false
+2821e83185bd5029.orphan     false
+2821e83185bd5029.ts         1467227596300
+2821e83185bd5029.file       "views/apps.ejs"
+2821e83185bd5029.locale.en  "Download"
+2821e83185bd5029.locale.fr  "Télécharger"
+2821e83185bd5029.locale.ru  "Скачать"
+2821e83185bd5029.locale.zh_HANS "下载"
+2821e83185bd5029.locale.zh_HANT "下載"
+2821e83185bd5029.
+b9a95f5db575ce66.
+b9a95f5db575ce66.hash       "b9a95f5db575ce66"
+b9a95f5db575ce66.sha1       "924ddd312d0e759d729d21834c5a9433ad9ef50b"
+b9a95f5db575ce66.category   "basic"
+b9a95f5db575ce66.original   "en"
+b9a95f5db575ce66.multiline  false
+b9a95f5db575ce66.orphan     false
+b9a95f5db575ce66.ts         1467228874575
+b9a95f5db575ce66.file       "views/faq.ejs"
+b9a95f5db575ce66.locale.en  "Yes. Files can be shared publically and privately. All files uploaded to the Sia network are erasure coded and then encrypted. Someone will only be able to decrypt and fetch the files if they have metadata about the files. This metadata is stored in something called a ‘.sia’ or a ‘siafile’. By sharing the siafile associated with a file that’s been uploaded to Sia, you give someone the ability to download that file. To share files privately, you can give the siafiles to people you trust. They will be able to download the file, and as long as they don’t share it, nobody else will. You can share files publicly by putting the associated siafiles in a public place."
+b9a95f5db575ce66.locale.fr  "Oui. Les fichiers peuvent être partagés publiquement et en privé. Tous les fichiers téléchargés sur le réseau Sia sont codés avec l'effacement codé puis crypté. Une personne sera en mesure de décrypter et récupérer les fichiers si elle a pas des métadonnées sur les fichiers. Ces métadonnées sont stockées dans ce qu'on appelle un «.sia» ou un «siafile». En partageant le siafile associé à un fichier qui a été téléchargé sur Sia, vous donnez à quelqu'un la possibilité de télécharger ce fichier. Pour partager des fichiers privés, vous pouvez donner les siafiles à des personnes de confiance. Ils seront en mesure de télécharger le fichier, et aussi longtemps qu'ils ne le partagent pas, personne d'autre ne le pourra. Vous pouvez partager des fichiers publics en mettant les siafiles associés dans un lieu public."
+b9a95f5db575ce66.locale.ru  "Да. Общий доступ к файлам может быть предоставлен публично или приватно. Все загруженные в сеть Sia файлы преобразуются кодами, исправляющими многократные ошибки и шифруются. Файлы можно расшифровать и получить только имея метаданные. Эти метаданные хранятся в файле с расширением \"sia\" или \"сиафайле\". Предоставляя доступ к сиафайлу, соответствующему файлу, который был загружен в сеть, вы даёте кому-либо возможность скачать этот файл. Чтобы поделиться файлом приватно, вы можете дать файл людям, которым вы доверяете. Они смогут скачать файл и если они его никому не передадут, то больше никто файл скачать не сможет. Вы также можете предоставить неограниченный общий доступ к файлам, поделившись сиафайлом в открытом источнике."
+b9a95f5db575ce66.locale.zh_HANS "是的。文件可以被公开地和私下分享。所有的文件上载到细亚网络上都被加码抹去然后再被加密。只有有元数据的人才可以解密和取出文件。这个元数据贮存在那些叫做 ‘.sia'或是'siafile'里。当你分享了与上载到Sia里文件有关的细亚文件的时候，你就给他下载的权利。如果私下分享的话，你可以把这些细亚文件给那些你相信的人。他们可以下载文件，只要他们不分享它，没人可以看到。你还可以公开地分享这些文件如果你把细亚文件放在一个公共的地方。"
+b9a95f5db575ce66.locale.zh_HANT "是的。文件可以被公開地和私下分享。所有的文件上載到細亞網絡上都被加碼抹去然後再被加密。只有有元數據的人才可以解密和取出文件。這個元數據貯存在那些叫做 ‘.sia'或是'siafile'裏。當你分享了與上載到Sia裏文件有關的細亞文件的時候，你就給他下載的權利。如果私下分享的話，你可以把這些細亞文件給那些你相信的人。他們可以下載文件，只要他們不分享它，沒人可以看到。你還可以公開地分享這些文件如果你把細亞文件放在一個公共的地方。"
+b9a95f5db575ce66.
